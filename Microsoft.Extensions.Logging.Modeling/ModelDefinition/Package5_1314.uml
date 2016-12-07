@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="e5b50a2c-95cf-4a77-847f-db244a7ca220"
+  name="Logging‎"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="10a47461-98f9-42f7-809b-5cbccd40101e"
+      handle="viewcode://./CodeSchema_Namespace?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnetcore-mine%2Faspnet-Logging%2FConsoleApplication1%2Fbin%2FDebug%2FConsoleApplication1.exe Namespace%3DMicrosoft.Extensions.Logging Type%3DMicrosoft.Extensions.Logging.EventSource.ExceptionInfo"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="3f836d3f-a079-46ff-950d-31cf14c498fd"
+        LastKnownName="EventSource‎"
+        LastKnownLocation="Package6_1314.uml" />
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

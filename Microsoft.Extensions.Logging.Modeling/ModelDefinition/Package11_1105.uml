@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="99e51cae-cf1c-453e-b61e-223b956719cf"
+  name="Primitives‎"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="4c24031c-5843-4dd3-98b4-da16651532b8"
+      handle="viewcode://./CodeSchema_Namespace?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnetcore-mine%2Faspnet-Logging%2FConsoleApplication1%2Fbin%2FDebug%2FConsoleApplication1.exe Namespace%3DMicrosoft.Extensions.Primitives Type%3DMicrosoft.Extensions.Primitives.IChangeToken"
+      tag="ViewCode" />
+  </referencesInternal>
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="7d0f4948-1dca-4c38-9b44-d23a179cf917">
+      <profileInstance
+        Id="22943d87-c43a-42e4-9699-cf58eb1c93c7"
+        name="CSharpProfile" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="78851c25-ce08-4733-a086-f2df8f109c74"
+        name="Microsoft.Extensions.Primitives.IChangeToken"
+        visibility="Private"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="08a847aa-794d-463f-b42d-d59b0e7f4ad4"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnetcore-mine%2Faspnet-Logging%2FConsoleApplication1%2Fbin%2FDebug%2FConsoleApplication1.exe Type%3DMicrosoft.Extensions.Primitives.IChangeToken"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="39e751f1-e6e2-466b-b786-aea70c49d39a"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2ce02e44-7c93-4208-b8a6-8a67cb676c00">
+                <propertyInstance
+                  Id="4cc20330-8335-4d90-9b77-2abfb201171f"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b5352735-aabe-4757-874f-303ce97b6ea1">
+                <propertyInstance
+                  Id="e4ae6966-fd49-4efc-902c-1c0e70cae640"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="88a46164-6fe7-43df-a165-c2c4a6333cc4">
+                <propertyInstance
+                  Id="2724f3b2-50f6-4cea-9c86-bd6c697a3b39"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a92e2431-270a-4923-ab32-d1c120beeff6">
+                <propertyInstance
+                  Id="34460127-ef15-411a-ba9d-1d7d82c0de00"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="54c28f51-2277-4eae-a70f-511112a9c3d5">
+                <propertyInstance
+                  Id="dd88360e-e5c7-491a-b173-56de93df7f5d"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

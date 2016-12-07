@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="8d827c69-d4a8-4c43-bc79-90e25e968cbc"
+  name="Extensions‎"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="dcc358cb-4054-4582-bcd2-eb6cd2a56767"
+      handle="viewcode://./CodeSchema_Namespace?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnetcore-mine%2Faspnet-Logging%2FConsoleApplication1%2Fbin%2FDebug%2FConsoleApplication1.exe Namespace%3DMicrosoft.Extensions Type%3DMicrosoft.Extensions.Configuration.IConfiguration"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="dd339fcb-db1b-47ad-aa65-1b67a39a28ed"
+        LastKnownName="Configuration‎"
+        LastKnownLocation="Package6_1105.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="99e51cae-cf1c-453e-b61e-223b956719cf"
+        LastKnownName="Primitives‎"
+        LastKnownLocation="Package11_1105.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="922f687f-e4a8-4c86-bb6b-15ec2ee81993"
+        LastKnownName="DependencyInjection‎"
+        LastKnownLocation="Package2_1314.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="e5b50a2c-95cf-4a77-847f-db244a7ca220"
+        LastKnownName="Logging‎"
+        LastKnownLocation="Package5_1314.uml" />
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

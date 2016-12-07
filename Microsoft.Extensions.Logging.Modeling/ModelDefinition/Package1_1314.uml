@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="a0419c83-6a1d-41e5-8e90-e1e8dfb92043"
+  name="DependencyInjection"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="9345d521-1d0e-416c-805d-8e8fcb0d3b95"
+      handle="viewcode://./CodeSchema_Namespace?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.dll Namespace%3DMicrosoft.Extensions.DependencyInjection"
+      tag="ViewCode" />
+  </referencesInternal>
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="ebb5a2fb-68c2-407e-999c-0eefd2ca884b">
+      <profileInstance
+        Id="15154be1-e5d5-4663-bbdf-0f0822e72bb8"
+        name="CSharpProfile" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="3fe85981-07ad-438b-abc5-214f47fc0f8e"
+        name="LoggingServiceCollectionExtensions"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="09470a15-6498-434b-8603-944fc64b3318"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.dll Namespace%3DMicrosoft.Extensions.DependencyInjection Type%3DLoggingServiceCollectionExtensions"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="a2940616-c13e-477a-ac84-eef45d98a440"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b9e2922d-b24a-4d31-83e3-73aca5eeea64">
+                <propertyInstance
+                  Id="1c1919bf-88ce-4eb8-93b7-b238b72c1fae"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7f2e1354-d1c0-4c46-b8bf-777b70b00e61">
+                <propertyInstance
+                  Id="2da935ea-210a-4ab0-b263-8f74b447df89"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="56b2a542-559a-410c-a238-4e57e42d5ddf">
+                <propertyInstance
+                  Id="9610a17c-8981-49d6-bde4-10a30f0f5505"
+                  name="IsStatic"
+                  value="True" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c5e7ae69-5052-427f-9d46-ab35a74596c0">
+                <propertyInstance
+                  Id="c80f51bb-d04d-49e4-9e11-d55a756b7cee"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e4acef14-515c-4a07-9359-ed7514a9fa90">
+                <propertyInstance
+                  Id="0687a44b-ec46-4713-8b2c-97167bc56b33"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="4e913c00-5897-4699-acf6-f7d34ac00c6c"
+            name="AddLogging"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="28a3be8c-9c18-488c-9041-2e2c84d302b6"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.dll Namespace%3DMicrosoft.Extensions.DependencyInjection Type%3DLoggingServiceCollectionExtensions Member%3D(Name%3DAddLogging OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnetcore-mine%2Faspnet-Logging%2FConsoleApplication1%2Fbin%2FDebug%2FConsoleApplication1.exe Type%3DMicrosoft.Extensions.DependencyInjection.IServiceCollection)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="605fb7bd-b6f4-4e21-94c1-9d91a1b325ec"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bdf0acaf-bd2c-4bde-9b02-8d0d89efbefb">
+                    <propertyInstance
+                      Id="c59df87f-8845-4d5d-be33-37e8941df1e7"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7f7e3f11-e823-4906-842a-e2d8c27b8e57">
+                    <propertyInstance
+                      Id="85d9e1d8-e0a4-4013-bfdf-eb6608667f2e"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="181b052e-4e30-459e-85ec-8cf175a8cffd">
+                    <propertyInstance
+                      Id="5d5ad05c-6771-4226-9641-603051fff6af"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5bf782e2-fed1-4d7a-990c-47f8d615ff05">
+                    <propertyInstance
+                      Id="32b67525-b22b-415f-8dbb-8b658460e311"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2d91b97c-c6c6-43df-a14e-3df8de885599">
+                    <propertyInstance
+                      Id="1aa2a0f4-fb60-4dd9-8092-695fc7c89fc6"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="623085e8-6869-4750-b784-1e1f52d7bf88">
+                    <propertyInstance
+                      Id="4925edad-0e2a-49ba-9510-381724307c1e"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="ccd6fdb8-55de-4375-b213-2187dcdbc47d"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="5a7857fd-32b6-4ac9-af1f-1e29443257f5"
+                      LastKnownName="Microsoft.Extensions.DependencyInjection.IServiceCollection"
+                      LastKnownLocation="Package2_1314.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="7b6d7514-09c3-49d5-b2b3-19db241fc81c"
+                  name="services"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="ea7d8190-e3ed-4321-bcb4-29723f158e87"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.dll Namespace%3DMicrosoft.Extensions.DependencyInjection Type%3DLoggingServiceCollectionExtensions Member%3D(Name%3DAddLogging OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnetcore-mine%2Faspnet-Logging%2FConsoleApplication1%2Fbin%2FDebug%2FConsoleApplication1.exe Type%3DMicrosoft.Extensions.DependencyInjection.IServiceCollection)]) ParameterIdentifier%3Dservices"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="5a7857fd-32b6-4ac9-af1f-1e29443257f5"
+                      LastKnownName="Microsoft.Extensions.DependencyInjection.IServiceCollection"
+                      LastKnownLocation="Package2_1314.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="3f836d3f-a079-46ff-950d-31cf14c498fd"
+  name="EventSource‎"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="5f5eea70-265f-459c-8bba-83b1a3d400c9"
+      handle="viewcode://./CodeSchema_Namespace?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnetcore-mine%2Faspnet-Logging%2FConsoleApplication1%2Fbin%2FDebug%2FConsoleApplication1.exe Namespace%3DMicrosoft.Extensions.Logging.EventSource Type%3DMicrosoft.Extensions.Logging.EventSource.ExceptionInfo"
+      tag="ViewCode" />
+  </referencesInternal>
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="974ec20d-2e24-444d-aa1e-3fd776baf968">
+      <profileInstance
+        Id="42aaabc2-206e-49a4-9ecc-74f67ca5d355"
+        name="CSharpProfile" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="eca41cc6-73b6-4fd2-afc6-85f7958e3aab"
+        name="Microsoft.Extensions.Logging.EventSource.EventSourceLogger"
+        visibility="Private"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="58210d86-736d-4bf9-be6c-011933899b22"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnetcore-mine%2Faspnet-Logging%2FConsoleApplication1%2Fbin%2FDebug%2FConsoleApplication1.exe Type%3DMicrosoft.Extensions.Logging.EventSource.EventSourceLogger"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="a52d636e-74ee-4721-ae81-6fabd1d74431"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="102f0d94-5919-49b7-8b7a-40e553f37533">
+                <propertyInstance
+                  Id="33d814da-ca63-4b01-ba28-569f770a22b3"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="04e84df3-7c65-4971-9f5c-d96739959764">
+                <propertyInstance
+                  Id="19d687bd-ef84-4141-83c0-84c69dde7c8b"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f73227d2-1f7a-463b-8e9f-08cef8c4f298">
+                <propertyInstance
+                  Id="1b40c454-e5a9-4a11-b4be-cb45730c319b"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8fc3e5b1-4978-4a2b-a8a9-77763eb4546e">
+                <propertyInstance
+                  Id="60aae9fd-ac66-41b0-ad98-0805781c084b"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c383c79c-c982-4dea-aea1-c8345607debd">
+                <propertyInstance
+                  Id="1ca88745-d328-49a5-aa6a-39fdc3610e6e"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="c5b6703d-9aa6-48c5-8730-2a13adb5436c"
+        name="Microsoft.Extensions.Logging.EventSource.EventSourceLoggerProvider"
+        visibility="Private"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="c1462b6f-cf5c-4b1a-85b1-b733a5e055d8"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnetcore-mine%2Faspnet-Logging%2FConsoleApplication1%2Fbin%2FDebug%2FConsoleApplication1.exe Type%3DMicrosoft.Extensions.Logging.EventSource.EventSourceLoggerProvider"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="bbab0e6d-edff-4535-8409-33a22b8d840a"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b1aa72b1-0b7b-4591-8b78-ed537087a938">
+                <propertyInstance
+                  Id="8747e077-9b3a-4537-9753-8ae1f15deb52"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d75746e4-3822-4cde-96b3-73d7d7042011">
+                <propertyInstance
+                  Id="f4aa9b34-93d8-41fe-9349-8357996c6e51"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="032fb17e-970d-44e5-a9e5-6cfbdd1a4fba">
+                <propertyInstance
+                  Id="04308af5-74de-4b44-8541-c618c8668259"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0019b40c-53a4-49e0-a2bb-6c7eec44df6a">
+                <propertyInstance
+                  Id="59eaa0a3-ef50-4ed8-a964-d082a4c7670a"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="06c7808b-a265-4186-9836-5db2685145a2">
+                <propertyInstance
+                  Id="34bd208d-4c27-48c2-86e5-1edee6892846"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="9a3aa83c-3517-4483-a9af-37b43791b95a"
+        name="Microsoft.Extensions.Logging.EventSource.ExceptionInfo"
+        visibility="Private"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="f05f2845-5a18-4df3-8092-897300bc4db2"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnetcore-mine%2Faspnet-Logging%2FConsoleApplication1%2Fbin%2FDebug%2FConsoleApplication1.exe Type%3DMicrosoft.Extensions.Logging.EventSource.ExceptionInfo"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="46eb455a-5d2a-4196-ab24-8777d39b4e8d"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8ec8233b-0b5d-4a8f-8ea5-8b93d8057ae2">
+                <propertyInstance
+                  Id="f3a3a687-c33d-4f6f-9b29-f416eb750360"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="62e6ba51-b792-4018-b86a-b1008ec2ffa6">
+                <propertyInstance
+                  Id="df22d3d3-028b-4af9-a772-681126266423"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8e861df2-ce93-48b4-8a5a-81e0b3e518c6">
+                <propertyInstance
+                  Id="79be94a3-5104-4e2d-ac0f-4dc354c7cc0a"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1fc0bfa6-1b1b-4a74-a939-55bd03271e4c">
+                <propertyInstance
+                  Id="62e0ea3a-efa0-478c-8a1e-c9e161396353"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="95c42b75-3975-4516-b0a7-bb9c757b03e4">
+                <propertyInstance
+                  Id="eb0b4a66-5adc-4f27-be00-3251dd9894aa"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

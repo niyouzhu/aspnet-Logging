@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="922f687f-e4a8-4c86-bb6b-15ec2ee81993"
+  name="DependencyInjection‎"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="f1278b79-ea4f-4991-8a2b-1a5eb0fd1c65"
+      handle="viewcode://./CodeSchema_Namespace?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnetcore-mine%2Faspnet-Logging%2FConsoleApplication1%2Fbin%2FDebug%2FConsoleApplication1.exe Namespace%3DMicrosoft.Extensions.DependencyInjection Type%3DMicrosoft.Extensions.DependencyInjection.IServiceCollection"
+      tag="ViewCode" />
+  </referencesInternal>
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="c7b572b0-2e7c-4b5e-b1dd-7c9f8f47d63e">
+      <profileInstance
+        Id="a1d5c532-4570-449b-b5af-3abb170b2c20"
+        name="CSharpProfile" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="5a7857fd-32b6-4ac9-af1f-1e29443257f5"
+        name="Microsoft.Extensions.DependencyInjection.IServiceCollection"
+        visibility="Private"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="5c01d1a3-2ec8-44ff-88e5-8bcad4346a51"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2Faspnetcore-mine%2Faspnet-Logging%2FConsoleApplication1%2Fbin%2FDebug%2FConsoleApplication1.exe Type%3DMicrosoft.Extensions.DependencyInjection.IServiceCollection"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="47e4b5e3-f435-4936-ac59-419483f33493"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8becd4db-bb70-4a3d-bc1b-1d5696ac90c5">
+                <propertyInstance
+                  Id="8dd643d7-39a2-45f4-9054-4b121a82adba"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8550ab48-7205-4b51-b652-c3903586935c">
+                <propertyInstance
+                  Id="c2a0fadc-f8f8-468d-a6de-4963d8a29495"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="51b3e219-781a-44a4-8898-b7820776cca0">
+                <propertyInstance
+                  Id="c6f0c98c-6d84-4f62-8613-c8aced39e406"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ddeb53c0-d180-493a-a5c7-dd65af44cca4">
+                <propertyInstance
+                  Id="b012ee47-f896-467e-9376-c4633259aa8b"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3c39b062-04a2-47a7-9b6f-5797f5e0ec11">
+                <propertyInstance
+                  Id="68d8fee9-60e6-4df8-9d14-48f6d5b324ae"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>
