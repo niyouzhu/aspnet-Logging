@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner"
+  dslVersion="1.0.0.0"
+  Id="ce985c9e-2d5a-48db-8837-8bd034746ac8"
+  name="Internal"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="20d1d2af-a97c-49b8-b186-8a19f1be2329"
+      handle="viewcode://./CodeSchema_Namespace?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.EventLog.dll Namespace%3DMicrosoft.Extensions.Logging.EventLog.Internal"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <Interface
+        Id="c2db9a29-3443-49f1-9226-6f8d8e500970"
+        name="IEventLog"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="4693f93d-7af8-4ad4-a7a6-c6486832e188"
+            handle="viewcode://./CodeSchema_Interface?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.EventLog.dll Namespace%3DMicrosoft.Extensions.Logging.EventLog.Internal Type%3DIEventLog"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="27245e0e-b1e7-4a66-ba44-96b5858a9c64"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5796edc0-63e4-4ece-b60e-4acc3cdf172f">
+                <propertyInstance
+                  Id="9bb07598-dbda-44f4-9bda-f03c537c1063"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e5616086-31a4-4247-9f6e-cbd181e654ee">
+                <propertyInstance
+                  Id="5593c7a2-dab1-4adc-9ce4-4969e777c626"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a07f84a0-b5d6-4c13-bfcf-d1e024db707c">
+                <propertyInstance
+                  Id="88ab0f3a-eff1-4db3-b76a-34edf7e63b4a"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b0c6f77f-53e9-4168-bcd4-7a90aade0fb4">
+                <propertyInstance
+                  Id="a530cc69-5ab4-40df-adfe-9b2834f85a4f"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedAttributes>
+          <property
+            Id="27dbc630-53f5-48cf-a9b1-8e535084a416"
+            name="MaxMessageSize"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="true"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="663da467-39ce-4da7-883a-1769f9ea8a02"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.EventLog.dll Namespace%3DMicrosoft.Extensions.Logging.EventLog.Internal Type%3DIEventLog Member%3DMaxMessageSize"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="abb5746a-3544-4c6b-b9ac-2e09378cf3b1"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="10ac6fb7-ca67-40ef-9ade-f167d5aac1f7">
+                    <propertyInstance
+                      Id="520d800d-ccfe-489b-a9de-c43cca2fa9b2"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="643eaaf6-06b0-4d54-a456-42ed6fadfb14">
+                    <propertyInstance
+                      Id="b8ee0982-7f63-4c52-a6e2-22367315f01b"
+                      name="Get"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b3f27a56-019a-4530-9cfc-75c7de8d6b47">
+                    <propertyInstance
+                      Id="e91cdec0-a790-4301-a124-b7aea46e3967"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a8308f88-fa0d-450b-b105-3adc6f26aee6">
+                    <propertyInstance
+                      Id="e07d9065-2053-485e-a95d-f1c9d1f06abe"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4ffd52fa-2747-4697-a9cf-9132eb7b9ebb">
+                    <propertyInstance
+                      Id="52ccc1ec-b734-4218-a201-1581d00b69e9"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="94045b1d-d471-4dd7-98f2-bb1234d1d6bc">
+                    <propertyInstance
+                      Id="147f5a50-7015-49fb-a437-bf82c72ac146"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e0a69317-90d2-42f2-9ac2-206535f5a51a">
+                    <propertyInstance
+                      Id="7bb7bd3a-5af9-4e72-aece-f9337776c6cd"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="Microsoft.Extensions.Logging.Modeling.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributes>
+        <ownedOperations>
+          <operation
+            Id="4da5d3fb-3709-4b78-bfb1-f852e7cf672a"
+            name="WriteEntry"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="7a28878c-e920-42af-907c-693586ad6ef5"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.EventLog.dll Namespace%3DMicrosoft.Extensions.Logging.EventLog.Internal Type%3DIEventLog Member%3D(Name%3DWriteEntry OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2FSystem.dll&quot; Namespace%3DSystem.Diagnostics Type%3DEventLogEntryType)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt16)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c594686e-6b1e-4f66-aa05-2ba2169bf2eb"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="361c3543-cbdf-4af0-9d44-1df0a6fda595">
+                    <propertyInstance
+                      Id="6c949748-7855-44d6-97b4-b5d6c9e61c3f"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3b892952-6858-4897-bf78-56d8f216d28f">
+                    <propertyInstance
+                      Id="5f7cc364-5631-4c8c-b70a-f3297b0a314a"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ca86f35a-1b74-4b1f-8140-9fa917afdb22">
+                    <propertyInstance
+                      Id="d52147f7-d93a-489c-94f0-b7833751df1e"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3321e122-b19b-4aea-9adb-b7a828fd94c0">
+                    <propertyInstance
+                      Id="ca20e487-585a-4696-b043-e1f49be388da"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3a085a47-ce22-4132-b263-a096c503a45f">
+                    <propertyInstance
+                      Id="58181d2a-cf62-464c-842b-f55d32831f83"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="081fae20-6c9f-45aa-a25a-df2b17933d5b">
+                    <propertyInstance
+                      Id="8edae176-0ff2-424a-8f10-dd51abf563b6"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="80e30d25-960b-44aa-ab4a-300589baabba"
+                  name="message"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="5be442b0-e5bd-4fcc-a818-017dd646b343"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.EventLog.dll Namespace%3DMicrosoft.Extensions.Logging.EventLog.Internal Type%3DIEventLog Member%3D(Name%3DWriteEntry OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2FSystem.dll&quot; Namespace%3DSystem.Diagnostics Type%3DEventLogEntryType)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt16)]) ParameterIdentifier%3Dmessage"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="Microsoft.Extensions.Logging.Modeling.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="b259389d-a1c9-4167-87d6-f98647fe6e8b"
+                  name="type"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="125656c2-2022-43f3-8afa-5754c73f718b"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.EventLog.dll Namespace%3DMicrosoft.Extensions.Logging.EventLog.Internal Type%3DIEventLog Member%3D(Name%3DWriteEntry OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2FSystem.dll&quot; Namespace%3DSystem.Diagnostics Type%3DEventLogEntryType)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt16)]) ParameterIdentifier%3Dtype"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <enumerationMoniker
+                      Id="cb0aff64-0427-402d-b893-9af9c79d6abd"
+                      LastKnownName="EventLogEntryType"
+                      LastKnownLocation="Package12_1105.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="f0573905-9e9f-4a41-bab6-c3daf217f673"
+                  name="eventID"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="fe91be35-2482-4ca2-8ff0-adfdaca621ac"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.EventLog.dll Namespace%3DMicrosoft.Extensions.Logging.EventLog.Internal Type%3DIEventLog Member%3D(Name%3DWriteEntry OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2FSystem.dll&quot; Namespace%3DSystem.Diagnostics Type%3DEventLogEntryType)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt16)]) ParameterIdentifier%3DeventID"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="Microsoft.Extensions.Logging.Modeling.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="ef917d19-ccdc-4be6-a3ea-82b10cf9bfaf"
+                  name="category"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="8841123f-3e55-44c9-928d-a7554ae3e595"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.EventLog.dll Namespace%3DMicrosoft.Extensions.Logging.EventLog.Internal Type%3DIEventLog Member%3D(Name%3DWriteEntry OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2FSystem.dll&quot; Namespace%3DSystem.Diagnostics Type%3DEventLogEntryType)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt16)]) ParameterIdentifier%3Dcategory"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="5ad9f145-56cd-4e65-8ea5-20760a87b92b"
+                      LastKnownName="Int16"
+                      LastKnownLocation="Package3_1105.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

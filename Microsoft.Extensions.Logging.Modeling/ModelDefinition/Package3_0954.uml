@@ -1,66 +1,66 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner"
   dslVersion="1.0.0.0"
-  Id="b99216f0-0ade-4a1a-9375-78b0668c25da"
+  Id="83487f03-2e99-4612-8bb3-857af9426917"
   name="Debug"
   visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
   <referencesInternal>
     <reference
-      Id="d886b3a1-863f-4ffa-a31f-e8dfd320e9c2"
+      Id="d2a67900-6cad-496b-9309-2c46d3694297"
       handle="viewcode://./CodeSchema_Namespace?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Debug.dll Namespace%3DMicrosoft.Extensions.Logging.Debug"
       tag="ViewCode" />
   </referencesInternal>
   <packagedElements>
     <packageHasNamedElement>
       <class
-        Id="c6488bd3-dbb6-42f9-af7a-18ddd249789a"
+        Id="c3d7085a-8572-4fcc-aeff-7fd07ffca999"
         name="DebugLogger"
         isAbstract="false"
         isLeaf="false"
         isActiveClass="false">
         <referencesInternal>
           <reference
-            Id="6c4eed55-1976-47c1-aa50-53a0845a0d07"
+            Id="2d5ea198-9c24-4cb8-aaa9-811ddac3ee80"
             handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Debug.dll Namespace%3DMicrosoft.Extensions.Logging.Debug Type%3DDebugLogger"
             tag="ViewCode" />
         </referencesInternal>
         <appliedStereotypesInternal>
           <stereotypeInstance
-            Id="178e3bcc-e17b-4289-ba61-44cdc5ca875e"
+            Id="cb3176ac-6bcb-4d06-9c54-a3a76d16d230"
             name="class"
             profile="CSharpProfile">
             <propertyInstances>
               <stereotypeInstanceHasPropertyInstances
-                Id="5996744b-790a-4193-b688-b11985ad83f4">
+                Id="22a34d41-cdc1-4fb1-a16c-12bdbc50692e">
                 <propertyInstance
-                  Id="6ec1fb32-14ad-4aa0-8223-7ce7f1fdc0c7"
+                  Id="116c8c11-01cf-49db-addc-4e271d3f83fe"
                   name="ClrAttributes" />
               </stereotypeInstanceHasPropertyInstances>
               <stereotypeInstanceHasPropertyInstances
-                Id="537cb639-a00a-43b9-aa5e-325fcedc8b3e">
+                Id="c9894b49-2b7b-4741-8d18-22ef15e57a94">
                 <propertyInstance
-                  Id="a6e4bf2b-fb95-4b92-aa93-0eb2faf8819a"
+                  Id="63e7ec65-e852-402c-938a-c4efd27d13da"
                   name="IsPartial"
                   value="false" />
               </stereotypeInstanceHasPropertyInstances>
               <stereotypeInstanceHasPropertyInstances
-                Id="31ea73c0-7d51-4633-a369-1d5a5b8a9ae7">
+                Id="97de5fb6-f4f0-42ba-9377-632759ed1ca6">
                 <propertyInstance
-                  Id="e0e672db-4360-4022-ae25-6661661583cd"
+                  Id="00aeea8a-0cf9-4237-97c4-1c2f8789e09e"
                   name="IsStatic"
                   value="False" />
               </stereotypeInstanceHasPropertyInstances>
               <stereotypeInstanceHasPropertyInstances
-                Id="3ad0a0e2-f5c6-410b-b42a-108215390828">
+                Id="b51dfe9d-946b-4b6d-b22d-6ff1049437b1">
                 <propertyInstance
-                  Id="e15bf912-35b1-4e75-93c7-d38be4128bd4"
+                  Id="3532ecc7-57c8-42ec-b880-cf700f1e6ff6"
                   name="IsUnsafe"
                   value="false" />
               </stereotypeInstanceHasPropertyInstances>
               <stereotypeInstanceHasPropertyInstances
-                Id="fcbc9459-3a39-45a0-aae3-1091f9f92a3e">
+                Id="52079c6f-b567-4b79-b2dc-64ede7ca2411">
                 <propertyInstance
-                  Id="947932fe-e840-4cd9-8f5d-941bd1faf868"
+                  Id="65cb9bc9-2e91-49ec-975d-816cdc99e0bc"
                   name="PackageVisibility"
                   value="internal" />
               </stereotypeInstanceHasPropertyInstances>
@@ -69,16 +69,16 @@
         </appliedStereotypesInternal>
         <suppliersInternal>
           <interfaceRealization
-            Id="6a3636f7-8cbc-4fa7-9563-307f17ee4c03">
+            Id="d7b82e46-babd-484f-9e3d-128e545f2c03">
             <interfaceMoniker
-              Id="7cfa727d-d1bd-49ad-9275-944757a86749"
+              Id="bd4cb367-a2d7-430c-a8f0-d990838068d0"
               LastKnownName="ILogger"
-              LastKnownLocation="Package2_1105.uml" />
+              LastKnownLocation="Package_0954.uml" />
           </interfaceRealization>
         </suppliersInternal>
         <ownedOperationsInternal>
           <operation
-            Id="850fccff-93f9-4c3b-aa7a-fa29f8abb82c"
+            Id="4985c0b0-8186-409a-92bd-326d502715fb"
             name="BeginScope‎&lt;TState‎&gt;"
             isLeaf="false"
             isStatic="false"
@@ -87,54 +87,54 @@
             isQuery="false">
             <referencesInternal>
               <reference
-                Id="e1f22f42-731e-4927-a0f0-2100328315c4"
+                Id="c40c47d7-b0d5-4107-8e3b-56f56f9eaede"
                 handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Debug.dll Namespace%3DMicrosoft.Extensions.Logging.Debug Type%3DDebugLogger Member%3D(Name%3DBeginScope GenericParameterCount%3D1 OverloadingParameters%3D[(ParameterIdentifier%3D0)])"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
               <stereotypeInstance
-                Id="2a2da794-9e3b-4300-b48b-fe65b65b50a5"
+                Id="7f39aa40-7c20-4cc9-9f3a-589032e7f409"
                 name="method"
                 profile="CSharpProfile">
                 <propertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="6db56342-9140-4bde-9858-048ca1d7d243">
+                    Id="73e8a4b3-624b-479f-8edf-f81d9ebbc1c7">
                     <propertyInstance
-                      Id="7677f8ee-561c-4980-b485-62e8e34faaa4"
+                      Id="885cb1eb-a0a2-45ee-a57a-aab29a270bc7"
                       name="ClrAttributes" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="63b596df-2098-4c1d-8b06-989b60da50e7">
+                    Id="724844f1-a068-48f5-ad97-ce59930fa725">
                     <propertyInstance
-                      Id="7d287c03-1605-41a8-adb1-996213beaa57"
+                      Id="3fe08bf9-e784-43c8-b105-1f51c098ea18"
                       name="IsPartial"
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="4b75a859-150c-44d0-a2e1-79f93c1087fe">
+                    Id="5b11746c-9ad7-4966-8429-cdad167f84a0">
                     <propertyInstance
-                      Id="61495e84-7832-48fa-9b19-c7fda57fc2b2"
+                      Id="6cf3adcf-0166-4cc4-8bde-3939c2099ca2"
                       name="IsUnsafe"
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="80083a52-9b38-47c3-842d-5add4f426e57">
+                    Id="ae0dee07-f0ea-4c66-b134-b0fd1adca630">
                     <propertyInstance
-                      Id="9e89e2d9-9b8b-4320-9c23-1de8bbc9fbee"
+                      Id="4e6e6231-5df8-47e8-b290-90229d440f57"
                       name="Inheritance"
                       value="none" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="9712f978-0d74-40c1-9f33-46eb8b718060">
+                    Id="63880fed-a4be-4874-8b6b-a4041c09ca6f">
                     <propertyInstance
-                      Id="7f753e21-7b90-4f79-bc70-f7376103d3c5"
+                      Id="7ed33653-862c-4a59-acef-0691b36a1d19"
                       name="PackageVisibility"
                       value="internal" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="6cf3b717-c47d-4f2c-abf9-ccfedd3273c3">
+                    Id="21399209-282c-486f-91d4-9c2310fa6b3f">
                     <propertyInstance
-                      Id="c0ec1bca-3d70-4b2b-90b8-6ddd338d403f"
+                      Id="9000062a-483f-4299-beb7-74ce37a22d20"
                       name="params"
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
@@ -144,7 +144,7 @@
             <ownedParameters>
               <operationHasOwnedParameters>
                 <parameter
-                  Id="0f785f11-5f19-428d-8e1e-87dd076c246b"
+                  Id="55ee070e-8dea-49b0-a9ea-b8a7ea160ee0"
                   direction="Return">
                   <type_NamedElement>
                     <interfaceMoniker
@@ -156,12 +156,12 @@
               </operationHasOwnedParameters>
               <operationHasOwnedParameters>
                 <parameter
-                  Id="07785176-6681-480d-8f2d-c3964a041e6c"
+                  Id="8e54cfd5-c766-4b46-b4e8-92fd68d97607"
                   name="state"
                   direction="In">
                   <referencesInternal>
                     <reference
-                      Id="ba60807f-e32c-475e-ba4f-b1f1beabf718"
+                      Id="12fa7ef8-e187-4873-a643-1ecda7266680"
                       handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Debug.dll Namespace%3DMicrosoft.Extensions.Logging.Debug Type%3DDebugLogger Member%3D(Name%3DBeginScope GenericParameterCount%3D1 OverloadingParameters%3D[(ParameterIdentifier%3D0)]) ParameterIdentifier%3Dstate"
                       tag="ViewCode" />
                   </referencesInternal>
@@ -176,7 +176,7 @@
             </ownedParameters>
           </operation>
           <operation
-            Id="f283ec5c-11ea-4ac0-ab36-8ce257d71759"
+            Id="b63b34f3-7187-45df-a288-dad9dd284337"
             name="DebugLogger"
             isLeaf="false"
             isStatic="false"
@@ -185,54 +185,54 @@
             isQuery="false">
             <referencesInternal>
               <reference
-                Id="1841cd10-c04f-4cd3-98f9-6ec458554489"
+                Id="b4410592-81e3-4007-9e79-47e97bd506b1"
                 handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Debug.dll Namespace%3DMicrosoft.Extensions.Logging.Debug Type%3DDebugLogger Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D3 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Abstractions.dll Namespace%3DMicrosoft.Extensions.Logging Type%3DLogLevel)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DBoolean)]))])"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
               <stereotypeInstance
-                Id="42472743-01d6-4636-b372-51f396a78f32"
+                Id="70a3ab81-5ed1-4262-ba56-32310b3f816e"
                 name="method"
                 profile="CSharpProfile">
                 <propertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="fa5127b0-3a9c-48f9-842c-a42c4a5f944c">
+                    Id="d437e501-6164-40c2-91ce-93a9f719a5aa">
                     <propertyInstance
-                      Id="37226451-bd6e-4877-85f5-2b80a0f100bd"
+                      Id="08e72b09-bb94-47c1-8aca-ca44c831c75f"
                       name="ClrAttributes" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="a1de4fb2-506c-48cc-b881-ef082b34e08c">
+                    Id="0d0f4078-1ab9-489b-b937-02ea790d9273">
                     <propertyInstance
-                      Id="f0283910-d5ab-4c9d-8f7e-28d21f7459a9"
+                      Id="debf498b-dba0-42b1-abe0-450bcb2adc7d"
                       name="IsPartial"
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="fdb0c600-7071-477a-9ece-67cec07e08ad">
+                    Id="b85adb33-2d75-4069-8adf-bb4da7c19869">
                     <propertyInstance
-                      Id="6b14bbbd-29ff-4470-8f77-eb059e72c4d0"
+                      Id="1544b310-5608-44f5-8d19-c24c623109cd"
                       name="IsUnsafe"
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="61e81be3-f1e1-40b6-863d-5ac248f480e9">
+                    Id="bbff29b1-96ff-4a2b-9bb9-c4f19e78d34b">
                     <propertyInstance
-                      Id="df6a6e3c-656e-4426-ade5-3da7606afb45"
+                      Id="c9ee7baf-0842-49db-aec9-13ead65a4550"
                       name="Inheritance"
                       value="none" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="2c52c00c-96f4-4aad-b134-7894c440c644">
+                    Id="06239e34-10f3-4eae-8e24-12e5e09bec3a">
                     <propertyInstance
-                      Id="faae2412-e15e-41d8-822a-3231a23dc06a"
+                      Id="5831c4f4-72f3-4e5f-8f53-3907f8b20473"
                       name="PackageVisibility"
                       value="internal" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="7d8a97ae-7540-44ee-8c78-be1f11f0e358">
+                    Id="e86e02c2-378d-4761-aa12-04782f949e4a">
                     <propertyInstance
-                      Id="fea43b67-9632-474b-a52a-637ee2db9d7b"
+                      Id="78ac8da6-51f0-44c4-ab0c-f900f8093d94"
                       name="params"
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
@@ -242,12 +242,12 @@
             <ownedParameters>
               <operationHasOwnedParameters>
                 <parameter
-                  Id="c7d18b46-dea5-4b88-9a5c-a325486ae975"
+                  Id="1db7b93b-93cc-4a73-a8c8-a99e977e34ab"
                   name="name"
                   direction="In">
                   <referencesInternal>
                     <reference
-                      Id="6dc35519-067b-421c-92d1-747dd38cc5c1"
+                      Id="87a5b89b-c2e3-402c-9650-f38c0ae41d86"
                       handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Debug.dll Namespace%3DMicrosoft.Extensions.Logging.Debug Type%3DDebugLogger Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D3 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Abstractions.dll Namespace%3DMicrosoft.Extensions.Logging Type%3DLogLevel)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DBoolean)]))]) ParameterIdentifier%3Dname"
                       tag="ViewCode" />
                   </referencesInternal>
@@ -261,12 +261,12 @@
               </operationHasOwnedParameters>
               <operationHasOwnedParameters>
                 <parameter
-                  Id="db127980-8f60-4178-a46c-19414f192852"
+                  Id="51dd9831-1c59-404e-91ae-3db30211039b"
                   name="filter"
                   direction="In">
                   <referencesInternal>
                     <reference
-                      Id="434574c8-e0ff-47b8-97d3-645268f92ab4"
+                      Id="8e764324-8619-40dc-ba7f-a2137d418c88"
                       handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Debug.dll Namespace%3DMicrosoft.Extensions.Logging.Debug Type%3DDebugLogger Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D3 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Abstractions.dll Namespace%3DMicrosoft.Extensions.Logging Type%3DLogLevel)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DBoolean)]))]) ParameterIdentifier%3Dfilter"
                       tag="ViewCode" />
                   </referencesInternal>
@@ -281,7 +281,7 @@
             </ownedParameters>
           </operation>
           <operation
-            Id="c9ce9fcd-adc4-41d2-8917-24554b5c8239"
+            Id="8c3267f9-92b1-48a8-952d-698cd43da78d"
             name="DebugLogger"
             isLeaf="false"
             isStatic="false"
@@ -290,54 +290,54 @@
             isQuery="false">
             <referencesInternal>
               <reference
-                Id="6b1e67d7-3f1b-4cfc-9066-fb6f23b8cb79"
+                Id="4c3b206e-b280-4266-9343-cac512b3f3f4"
                 handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Debug.dll Namespace%3DMicrosoft.Extensions.Logging.Debug Type%3DDebugLogger Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
               <stereotypeInstance
-                Id="eb0222ac-111f-447b-8a59-5f70610b665b"
+                Id="570febf6-6d97-4137-9687-e3770f0d6f80"
                 name="method"
                 profile="CSharpProfile">
                 <propertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="d59c7096-594b-4faf-b25f-650cc3a61a91">
+                    Id="533b8d70-f812-439b-a0f4-4db121a05e33">
                     <propertyInstance
-                      Id="c8f150b2-5f38-4c2a-b52f-31852a3f450d"
+                      Id="9d61a69b-b0c6-486e-974e-6e2ce2453324"
                       name="ClrAttributes" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="cb9a81c6-e045-4f14-8e52-07ce8a73fbb1">
+                    Id="d1ebddcc-8e3b-4d87-b09c-6ea0c395db36">
                     <propertyInstance
-                      Id="aefca2ae-0fa5-410f-9ef0-b01f8c769ea7"
+                      Id="6c67a1c8-74e9-4b66-9c00-cdfd9d77c10d"
                       name="IsPartial"
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="24ed500b-0e74-4440-adf0-04341885c02e">
+                    Id="853fdd6f-a3bc-4e86-bb15-40aa324e5478">
                     <propertyInstance
-                      Id="bb2f7f1d-9b87-4003-b513-2a1cdea146f8"
+                      Id="277e84f9-6a5f-465b-b453-194290576300"
                       name="IsUnsafe"
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="18852bdf-9ea3-47f9-9be3-80f1c324b581">
+                    Id="7bea261a-f7fd-4945-b91c-541431b12912">
                     <propertyInstance
-                      Id="57be5339-23d3-49ff-adbf-a0259212a34d"
+                      Id="a9e5c5f4-5a60-4e9c-86bc-d31cd1dc28ac"
                       name="Inheritance"
                       value="none" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="bbfe37b5-1994-4cc0-ad5f-2aa0ab7fe66e">
+                    Id="ae8ec219-0620-4e04-9fdb-0f70fd8fccd8">
                     <propertyInstance
-                      Id="79318496-5496-4a51-90d3-0920fa343239"
+                      Id="97ac3f61-7f06-4f4b-bfbf-2df13c9233de"
                       name="PackageVisibility"
                       value="internal" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="8e1caf46-b7ea-430d-9585-2c69a2670514">
+                    Id="8c762d00-87a7-43e1-b3f2-5eac8844bf40">
                     <propertyInstance
-                      Id="11c5f2e1-6066-422c-98cc-590f2ee471a5"
+                      Id="a0d5c55e-8b45-4c99-a12e-ebbdf397afbd"
                       name="params"
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
@@ -347,12 +347,12 @@
             <ownedParameters>
               <operationHasOwnedParameters>
                 <parameter
-                  Id="ec70da8b-d771-468a-8671-759b5c5b0207"
+                  Id="a8889f30-b4cb-4557-9337-b0536ab96576"
                   name="name"
                   direction="In">
                   <referencesInternal>
                     <reference
-                      Id="b1485190-0a9f-4fe5-8794-ec01f79d8d5b"
+                      Id="aef4325e-6d1d-4578-bfb7-5cd17657f66c"
                       handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Debug.dll Namespace%3DMicrosoft.Extensions.Logging.Debug Type%3DDebugLogger Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dname"
                       tag="ViewCode" />
                   </referencesInternal>
@@ -367,7 +367,7 @@
             </ownedParameters>
           </operation>
           <operation
-            Id="af8fdd01-bb85-4a80-bcd7-7b761f9e7d6b"
+            Id="336336bb-03cd-49fe-ae85-f0b5c82737ab"
             name="IsEnabled"
             isLeaf="false"
             isStatic="false"
@@ -376,54 +376,54 @@
             isQuery="false">
             <referencesInternal>
               <reference
-                Id="de5cd23d-ea07-4de3-bc3d-b4eacb27b21a"
+                Id="ec1f3f0d-b42d-4c14-8e77-69d4f8b93ece"
                 handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Debug.dll Namespace%3DMicrosoft.Extensions.Logging.Debug Type%3DDebugLogger Member%3D(Name%3DIsEnabled OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Abstractions.dll Namespace%3DMicrosoft.Extensions.Logging Type%3DLogLevel)])"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
               <stereotypeInstance
-                Id="31a2225f-3a18-4cdb-ae70-c5aa0da07feb"
+                Id="fc5280e7-02af-48b4-9eff-f99c31f9caa2"
                 name="method"
                 profile="CSharpProfile">
                 <propertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="529eb1e7-2011-466c-b9b2-ff21f1c4b273">
+                    Id="8e74308f-6924-4436-8e18-f8648ab19a5b">
                     <propertyInstance
-                      Id="780f9415-e13e-4280-9619-5f91c484c171"
+                      Id="79e9ab44-186f-4332-a826-fb9af6b1fdd4"
                       name="ClrAttributes" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="99b26f61-e6d2-4b03-81d0-8001bd2f61ed">
+                    Id="8bfbc4f6-0d43-4b90-958d-2ea8e9fd701b">
                     <propertyInstance
-                      Id="ba46043e-7283-46ef-afd4-f0e1f31ffd2e"
+                      Id="83a6e6d1-40c7-4b7d-8dcf-6d36ef6672d8"
                       name="IsPartial"
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="74f48a0e-1f8d-4dd0-9385-b50ab5bd456d">
+                    Id="7864de69-1dab-454c-a521-3abbbd025a52">
                     <propertyInstance
-                      Id="c8fda7d5-c178-4f14-85c1-52643c307140"
+                      Id="7f1376ef-5112-4930-91ac-bc14ec4b822f"
                       name="IsUnsafe"
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="28fe6c9d-d505-4e65-a3e1-030daa3e1154">
+                    Id="26ad76e7-2815-4d2a-b2b0-dfe26e05286a">
                     <propertyInstance
-                      Id="b5d2016a-deb6-4f2a-af00-370a3e9f83af"
+                      Id="074e9a3d-e9ed-4f6a-881f-5260b20f3900"
                       name="Inheritance"
                       value="none" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="cbc925c7-67f4-4124-8427-90091c0ff31f">
+                    Id="9c7feb67-a8a8-46ab-b11c-8ac382667513">
                     <propertyInstance
-                      Id="87fd2f44-fe69-418d-b94c-40398f6a0609"
+                      Id="39604736-4020-4842-a46a-ae4c555db506"
                       name="PackageVisibility"
                       value="internal" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="6e7d387a-336c-43b4-b12e-eba072ee4882">
+                    Id="1e4ace06-02de-48b3-ab15-0bb9868d7e2f">
                     <propertyInstance
-                      Id="5b1e1686-cd68-4bb1-8d87-2d8f0f394cc4"
+                      Id="546f8832-6ca2-4e54-859e-03c267711478"
                       name="params"
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
@@ -433,7 +433,7 @@
             <ownedParameters>
               <operationHasOwnedParameters>
                 <parameter
-                  Id="bc207e08-dbd6-4417-8e03-9c84017a51f8"
+                  Id="3f5aae2d-d4b6-4146-906c-bd6c13176548"
                   direction="Return">
                   <type_NamedElement>
                     <primitiveTypeMoniker
@@ -445,12 +445,12 @@
               </operationHasOwnedParameters>
               <operationHasOwnedParameters>
                 <parameter
-                  Id="5a4f1902-cb36-402a-9180-b3e594b7538f"
+                  Id="d7fff328-5b8f-4cef-b67d-ebb79292ef7a"
                   name="logLevel"
                   direction="In">
                   <referencesInternal>
                     <reference
-                      Id="82ad4f6f-d00d-4231-b4de-8d566838b469"
+                      Id="97b34a6d-03f2-4c2a-ae7d-828f5c9cdd2e"
                       handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Debug.dll Namespace%3DMicrosoft.Extensions.Logging.Debug Type%3DDebugLogger Member%3D(Name%3DIsEnabled OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Abstractions.dll Namespace%3DMicrosoft.Extensions.Logging Type%3DLogLevel)]) ParameterIdentifier%3DlogLevel"
                       tag="ViewCode" />
                   </referencesInternal>
@@ -465,7 +465,7 @@
             </ownedParameters>
           </operation>
           <operation
-            Id="45b86516-84a9-4399-bd33-76b2c5b11cbc"
+            Id="a223b349-917f-4fdc-8782-334ffb315be8"
             name="Log‎&lt;TState‎&gt;"
             isLeaf="false"
             isStatic="false"
@@ -474,54 +474,54 @@
             isQuery="false">
             <referencesInternal>
               <reference
-                Id="0e9b9352-a36b-4b95-8fb0-c1d38f5537c4"
+                Id="83f754a8-357c-470e-89d8-f6173b908b93"
                 handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Debug.dll Namespace%3DMicrosoft.Extensions.Logging.Debug Type%3DDebugLogger Member%3D(Name%3DLog GenericParameterCount%3D1 OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Abstractions.dll Namespace%3DMicrosoft.Extensions.Logging Type%3DLogLevel)%2C(Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Abstractions.dll Namespace%3DMicrosoft.Extensions.Logging Type%3DEventId)%2C(ParameterIdentifier%3D0)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DException)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D3 GenericArguments%3D[(ParameterIdentifier%3D0)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DException)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]))])"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
               <stereotypeInstance
-                Id="228873d1-035a-45e6-81b5-e906e77343a5"
+                Id="1d2e12cb-b327-4b03-9c68-953fa0e6d281"
                 name="method"
                 profile="CSharpProfile">
                 <propertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="ac958ffc-d754-4720-a859-f26c759f0220">
+                    Id="0beee54c-2e2d-43a0-acb0-31e0b4cb0805">
                     <propertyInstance
-                      Id="c1b67c20-d1b6-45bd-ba46-ad9d7b2050fc"
+                      Id="e03cf4b1-8138-4a0b-bb2c-de3ce199550b"
                       name="ClrAttributes" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="185d8ec1-432e-49f1-b129-0cbc0fd3d3cf">
+                    Id="35085f71-3179-4dd7-89c0-567de618f33c">
                     <propertyInstance
-                      Id="60b3a50d-6a25-44bf-b33d-9eb3f4bc029e"
+                      Id="ccd5f84e-4b4e-4242-a685-972e19d390f5"
                       name="IsPartial"
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="8b33ece9-ef8f-487b-9948-e90986405765">
+                    Id="d55c7b4a-7766-4c94-90de-052d8e6e0303">
                     <propertyInstance
-                      Id="8e9cfb67-550b-4ac7-84d3-2d79776a27cb"
+                      Id="72e9fe44-0979-4c85-b071-51e3c5caa1ca"
                       name="IsUnsafe"
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="23f5db95-5c02-4027-b9e4-3fd464e0b1dc">
+                    Id="ab031227-dead-4a07-8f5a-0fea971ef25f">
                     <propertyInstance
-                      Id="002eb1dc-9447-42b4-a6ad-146ca04edb14"
+                      Id="bcc1698f-5ab5-4687-9df4-2e80d42a3be7"
                       name="Inheritance"
                       value="none" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="c15615a4-07fd-4818-967c-e82d1560535e">
+                    Id="411ff9be-21df-42e0-a509-ff37f3969cf0">
                     <propertyInstance
-                      Id="5eec6c33-f5cd-4d31-b3bb-d5a664e3183c"
+                      Id="698f911e-de78-43dc-8ff7-8475ebddef26"
                       name="PackageVisibility"
                       value="internal" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="abef4029-7f16-4162-8834-abde31fb7803">
+                    Id="ff01127c-b4e3-47ed-bbf5-33fcec428687">
                     <propertyInstance
-                      Id="34ff1edd-5662-44a1-b506-d56c5d19097d"
+                      Id="33a550e8-eb20-4d70-882d-d536f0a81fba"
                       name="params"
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
@@ -531,12 +531,12 @@
             <ownedParameters>
               <operationHasOwnedParameters>
                 <parameter
-                  Id="7dcecf2b-e645-4f01-9fd0-6f78bf099ef3"
+                  Id="512ba2a5-fe3d-4083-b49c-a93f88818dfd"
                   name="logLevel"
                   direction="In">
                   <referencesInternal>
                     <reference
-                      Id="85cd0c38-a428-4624-85bd-7cc2883204a3"
+                      Id="43eb4d2f-d6fa-48fd-8114-f9e1a491cb36"
                       handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Debug.dll Namespace%3DMicrosoft.Extensions.Logging.Debug Type%3DDebugLogger Member%3D(Name%3DLog GenericParameterCount%3D1 OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Abstractions.dll Namespace%3DMicrosoft.Extensions.Logging Type%3DLogLevel)%2C(Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Abstractions.dll Namespace%3DMicrosoft.Extensions.Logging Type%3DEventId)%2C(ParameterIdentifier%3D0)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DException)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D3 GenericArguments%3D[(ParameterIdentifier%3D0)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DException)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]))]) ParameterIdentifier%3DlogLevel"
                       tag="ViewCode" />
                   </referencesInternal>
@@ -550,12 +550,12 @@
               </operationHasOwnedParameters>
               <operationHasOwnedParameters>
                 <parameter
-                  Id="f8f894c9-0180-4c0c-9690-ca8f79d477bd"
+                  Id="0dd4786e-8e3c-437e-a341-254ddb9e2250"
                   name="eventId"
                   direction="In">
                   <referencesInternal>
                     <reference
-                      Id="f596b1db-fc4c-4325-90e1-1fb5b2f33b70"
+                      Id="62d9472b-5525-463c-a398-20aac6467fb2"
                       handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Debug.dll Namespace%3DMicrosoft.Extensions.Logging.Debug Type%3DDebugLogger Member%3D(Name%3DLog GenericParameterCount%3D1 OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Abstractions.dll Namespace%3DMicrosoft.Extensions.Logging Type%3DLogLevel)%2C(Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Abstractions.dll Namespace%3DMicrosoft.Extensions.Logging Type%3DEventId)%2C(ParameterIdentifier%3D0)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DException)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D3 GenericArguments%3D[(ParameterIdentifier%3D0)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DException)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]))]) ParameterIdentifier%3DeventId"
                       tag="ViewCode" />
                   </referencesInternal>
@@ -569,12 +569,12 @@
               </operationHasOwnedParameters>
               <operationHasOwnedParameters>
                 <parameter
-                  Id="b3188a48-346f-4f76-89cb-63ec89ba7527"
+                  Id="cc5cc94c-3641-4eaf-aa78-2b38468223c1"
                   name="state"
                   direction="In">
                   <referencesInternal>
                     <reference
-                      Id="22c73961-f392-4b88-bac1-5bb3e453be43"
+                      Id="ae9d131d-e393-4a59-9047-2210e5f839ac"
                       handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Debug.dll Namespace%3DMicrosoft.Extensions.Logging.Debug Type%3DDebugLogger Member%3D(Name%3DLog GenericParameterCount%3D1 OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Abstractions.dll Namespace%3DMicrosoft.Extensions.Logging Type%3DLogLevel)%2C(Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Abstractions.dll Namespace%3DMicrosoft.Extensions.Logging Type%3DEventId)%2C(ParameterIdentifier%3D0)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DException)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D3 GenericArguments%3D[(ParameterIdentifier%3D0)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DException)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]))]) ParameterIdentifier%3Dstate"
                       tag="ViewCode" />
                   </referencesInternal>
@@ -588,12 +588,12 @@
               </operationHasOwnedParameters>
               <operationHasOwnedParameters>
                 <parameter
-                  Id="8b4d382b-edc9-4ae4-8b32-275ad0208e33"
+                  Id="85fe8548-1287-46fe-b275-0e0f9869115c"
                   name="exception"
                   direction="In">
                   <referencesInternal>
                     <reference
-                      Id="2be9b2a7-c865-40e1-9fd2-ff4e0b5ed36a"
+                      Id="bc217cdb-df66-4b7b-9702-6a454ee3dfdb"
                       handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Debug.dll Namespace%3DMicrosoft.Extensions.Logging.Debug Type%3DDebugLogger Member%3D(Name%3DLog GenericParameterCount%3D1 OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Abstractions.dll Namespace%3DMicrosoft.Extensions.Logging Type%3DLogLevel)%2C(Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Abstractions.dll Namespace%3DMicrosoft.Extensions.Logging Type%3DEventId)%2C(ParameterIdentifier%3D0)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DException)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D3 GenericArguments%3D[(ParameterIdentifier%3D0)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DException)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]))]) ParameterIdentifier%3Dexception"
                       tag="ViewCode" />
                   </referencesInternal>
@@ -607,12 +607,12 @@
               </operationHasOwnedParameters>
               <operationHasOwnedParameters>
                 <parameter
-                  Id="f179888a-f701-4997-9648-935ab83a77c1"
+                  Id="2d7388c1-1acb-4f32-aec2-6779085409d7"
                   name="formatter"
                   direction="In">
                   <referencesInternal>
                     <reference
-                      Id="ac0386bf-2b1a-404a-ac76-d56428b93fe8"
+                      Id="35f6fa0a-f960-4ce7-a771-41368b3bd990"
                       handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Debug.dll Namespace%3DMicrosoft.Extensions.Logging.Debug Type%3DDebugLogger Member%3D(Name%3DLog GenericParameterCount%3D1 OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Abstractions.dll Namespace%3DMicrosoft.Extensions.Logging Type%3DLogLevel)%2C(Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Abstractions.dll Namespace%3DMicrosoft.Extensions.Logging Type%3DEventId)%2C(ParameterIdentifier%3D0)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DException)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D3 GenericArguments%3D[(ParameterIdentifier%3D0)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DException)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]))]) ParameterIdentifier%3Dformatter"
                       tag="ViewCode" />
                   </referencesInternal>
@@ -630,67 +630,55 @@
       </class>
     </packageHasNamedElement>
     <packageHasNamedElement>
-      <undefinedType
-        Id="d3c4507d-900d-40a6-8312-fb27088e458e"
-        name="TState">
-        <referencesInternal>
-          <reference
-            Id="71a6f863-a8e7-4e0e-b6a5-eb31100fdfc7"
-            handle="viewcode://./CodeSchema_GenericParameter?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Debug.dll Namespace%3DMicrosoft.Extensions.Logging.Debug Type%3DDebugLogger Member%3D(Name%3DLog GenericParameterCount%3D1 OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Abstractions.dll Namespace%3DMicrosoft.Extensions.Logging Type%3DLogLevel)%2C(Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Abstractions.dll Namespace%3DMicrosoft.Extensions.Logging Type%3DEventId)%2C(ParameterIdentifier%3D0)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DException)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D3 GenericArguments%3D[(ParameterIdentifier%3D0)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DException)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]))]) ParameterIdentifier%3D0"
-            tag="ViewCode" />
-        </referencesInternal>
-      </undefinedType>
-    </packageHasNamedElement>
-    <packageHasNamedElement>
       <class
-        Id="0b4abb30-1823-437a-80e8-8dcf004a600f"
+        Id="0f5d1520-19bf-46f1-8799-db8d4eac5728"
         name="DebugLoggerProvider"
         isAbstract="false"
         isLeaf="false"
         isActiveClass="false">
         <referencesInternal>
           <reference
-            Id="1b587eed-a3a8-4217-a73c-f3204d831108"
+            Id="3acf584d-5e40-4fad-b7f0-fb87e6986ddf"
             handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Debug.dll Namespace%3DMicrosoft.Extensions.Logging.Debug Type%3DDebugLoggerProvider"
             tag="ViewCode" />
         </referencesInternal>
         <appliedStereotypesInternal>
           <stereotypeInstance
-            Id="ea6c4cc9-b287-4b0e-917b-28d8762d318a"
+            Id="5c601205-b18b-48f7-835a-b27ffb4d33d4"
             name="class"
             profile="CSharpProfile">
             <propertyInstances>
               <stereotypeInstanceHasPropertyInstances
-                Id="163e3be8-ead0-4355-99bd-b101f5859093">
+                Id="6fbb40a6-662d-404a-89de-98f43d94cfca">
                 <propertyInstance
-                  Id="15a6845f-6852-4dfa-ab80-5b2b289d47b4"
+                  Id="b3cf9db3-ee13-4b96-b212-e73ec159e70e"
                   name="ClrAttributes" />
               </stereotypeInstanceHasPropertyInstances>
               <stereotypeInstanceHasPropertyInstances
-                Id="a5ae238a-1180-4ceb-8fec-db2e6c0591ae">
+                Id="67d5416a-b0dc-4c79-9b57-28e9a64588af">
                 <propertyInstance
-                  Id="cb6e5fb7-dee8-4d1c-86cf-972ea88842f8"
+                  Id="874ffa11-0547-4789-8b6e-efc348fb53ac"
                   name="IsPartial"
                   value="false" />
               </stereotypeInstanceHasPropertyInstances>
               <stereotypeInstanceHasPropertyInstances
-                Id="50903db2-07b8-470d-ac7d-76dfdd663426">
+                Id="b3459a29-aaca-44cf-a2d6-9c841ca3ae32">
                 <propertyInstance
-                  Id="ff7b169b-d812-4dff-9a63-1e4b99e45ae8"
+                  Id="924f31a8-0baa-4ea9-992f-080f8b97d9c1"
                   name="IsStatic"
                   value="False" />
               </stereotypeInstanceHasPropertyInstances>
               <stereotypeInstanceHasPropertyInstances
-                Id="9301868c-8b63-4bde-a6c8-2e6022507021">
+                Id="fbf3d3e0-1650-4b64-838c-02834ef34983">
                 <propertyInstance
-                  Id="cc0d473e-039e-4417-b2fe-8389e7241ccd"
+                  Id="72d60d2b-2407-4c41-9283-dabbf405e275"
                   name="IsUnsafe"
                   value="false" />
               </stereotypeInstanceHasPropertyInstances>
               <stereotypeInstanceHasPropertyInstances
-                Id="9b1740fa-ece4-4486-a800-aef934c44dac">
+                Id="aed238a9-b77b-4e4a-9b53-cccb7474d381">
                 <propertyInstance
-                  Id="b9fbf213-99b6-4e94-bcdf-abadb75fcb6a"
+                  Id="507ba7ce-26dd-4a29-841b-41f3ab9339b2"
                   name="PackageVisibility"
                   value="internal" />
               </stereotypeInstanceHasPropertyInstances>
@@ -699,23 +687,16 @@
         </appliedStereotypesInternal>
         <suppliersInternal>
           <interfaceRealization
-            Id="ac3ede60-0dfb-4796-9387-91df0925d8b5">
+            Id="706874e0-c878-4858-83e1-09f87653e95e">
             <interfaceMoniker
-              Id="ad060812-8d94-419a-8818-e0cb92931514"
+              Id="7e437337-251f-4714-8e16-7e5c28169423"
               LastKnownName="ILoggerProvider"
-              LastKnownLocation="Package2_1105.uml" />
-          </interfaceRealization>
-          <interfaceRealization
-            Id="7f3695dc-a7b8-4754-93c0-02495077b50e">
-            <interfaceMoniker
-              Id="6787b09a-198f-4b1d-b30a-45ad38aa6277"
-              LastKnownName="IDisposable"
-              LastKnownLocation="Package3_1105.uml" />
+              LastKnownLocation="Package_0954.uml" />
           </interfaceRealization>
         </suppliersInternal>
         <ownedOperationsInternal>
           <operation
-            Id="ea590b85-ab08-4e28-a9fd-ec0bcb52e6ad"
+            Id="4ee59340-b3b0-43b1-b64f-2699dec40cd3"
             name="CreateLogger"
             isLeaf="false"
             isStatic="false"
@@ -724,54 +705,54 @@
             isQuery="false">
             <referencesInternal>
               <reference
-                Id="676c20df-6378-4619-85ac-41ed95b867d3"
+                Id="fca17d44-1d8c-4a2b-8911-98b277dec5b1"
                 handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Debug.dll Namespace%3DMicrosoft.Extensions.Logging.Debug Type%3DDebugLoggerProvider Member%3D(Name%3DCreateLogger OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
               <stereotypeInstance
-                Id="c8c7c8db-e42e-4ccb-aee4-a79080ef6bbb"
+                Id="7ee04675-5dca-461d-b3ab-dff8a08c4df3"
                 name="method"
                 profile="CSharpProfile">
                 <propertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="6e2e1adc-96f3-49d4-87a9-9e71b5e31f68">
+                    Id="4392b663-2911-46da-94d2-8f496708d66a">
                     <propertyInstance
-                      Id="2f088efe-ba3e-4608-9367-ba8b3b6cdb39"
+                      Id="950a04ad-f813-4e76-8a99-c3314c9b110d"
                       name="ClrAttributes" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="3ea8632a-b6fe-4b6a-8c9b-66df9516ba9f">
+                    Id="cb3fd5af-6963-49ca-9d6f-8c9decbf6413">
                     <propertyInstance
-                      Id="329a2a66-f226-4358-83b5-6cde7744474a"
+                      Id="ba352755-1935-4b79-b91d-5b23e350a6ec"
                       name="IsPartial"
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="60d95daf-a0a8-473e-96e7-23af0a13d0bd">
+                    Id="24e4d42e-895e-4ca8-af60-10b74a027b9c">
                     <propertyInstance
-                      Id="8db61573-9ba7-4b8a-b915-46ff8a174ef0"
+                      Id="55dfa1ea-07a6-4013-915c-18ee3735f520"
                       name="IsUnsafe"
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="f4bebf87-51c7-4029-b9d6-42f83a290359">
+                    Id="3b4456b3-32a2-4771-96bf-c89ca36a034f">
                     <propertyInstance
-                      Id="f04358ce-c966-4b9f-8b66-d37282e145c3"
+                      Id="dc22b1af-7c12-44c6-aa03-89dff34d10a1"
                       name="Inheritance"
                       value="none" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="6bb00ef6-9617-412f-9080-e53395df473b">
+                    Id="7daa1b68-7e52-47d9-9805-d9640f59620f">
                     <propertyInstance
-                      Id="75eacc69-706f-4a70-9b70-291383540287"
+                      Id="66a75a68-cdfd-4d31-b81d-ed6c6fd32563"
                       name="PackageVisibility"
                       value="internal" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="66aed288-43cb-4c23-acb1-2df5e0648434">
+                    Id="cef5cc03-15e7-47c8-b662-bb9d7b16168b">
                     <propertyInstance
-                      Id="1b8f7bed-a9d6-48f1-a9cc-adca9ee0b3ca"
+                      Id="fd5e2141-2bb6-459d-8cc7-22112c62c162"
                       name="params"
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
@@ -781,11 +762,11 @@
             <ownedParameters>
               <operationHasOwnedParameters>
                 <parameter
-                  Id="72cd9528-4479-4cb0-9c81-3b0f5563289f"
+                  Id="90956be6-1d35-44c2-86bd-e6e3571573e6"
                   direction="Return">
                   <type_NamedElement>
                     <interfaceMoniker
-                      Id="7cfa727d-d1bd-49ad-9275-944757a86749"
+                      Id="fd8558ec-dac0-4531-a60a-510b53e470ad"
                       LastKnownName="ILogger"
                       LastKnownLocation="Package2_1105.uml" />
                   </type_NamedElement>
@@ -793,12 +774,12 @@
               </operationHasOwnedParameters>
               <operationHasOwnedParameters>
                 <parameter
-                  Id="943746ea-693c-4027-8e2e-f0878473f9e0"
+                  Id="faf7ab5b-84ec-4c4b-9810-f28acc71c1d6"
                   name="name"
                   direction="In">
                   <referencesInternal>
                     <reference
-                      Id="41e9564d-f9e5-4984-a5b3-970960fb27d5"
+                      Id="2a43f05e-03a5-49bc-88e3-adeffe75fae7"
                       handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Debug.dll Namespace%3DMicrosoft.Extensions.Logging.Debug Type%3DDebugLoggerProvider Member%3D(Name%3DCreateLogger OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dname"
                       tag="ViewCode" />
                   </referencesInternal>
@@ -813,7 +794,7 @@
             </ownedParameters>
           </operation>
           <operation
-            Id="b547c328-98e6-4c27-9d67-f39b3899b955"
+            Id="d8c70978-504c-47bc-af80-e5d35031fcf0"
             name="DebugLoggerProvider"
             isLeaf="false"
             isStatic="false"
@@ -822,54 +803,54 @@
             isQuery="false">
             <referencesInternal>
               <reference
-                Id="9a0e0165-969d-433f-b682-f5779d340f87"
+                Id="6a9d1f08-3128-4809-869a-b810a8b7a025"
                 handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Debug.dll Namespace%3DMicrosoft.Extensions.Logging.Debug Type%3DDebugLoggerProvider Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D3 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Abstractions.dll Namespace%3DMicrosoft.Extensions.Logging Type%3DLogLevel)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DBoolean)]))])"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
               <stereotypeInstance
-                Id="b7142dfa-36e3-47db-a320-e993dd7c2eb2"
+                Id="66b8f3f6-0abc-416c-8613-22f2911c4ccc"
                 name="method"
                 profile="CSharpProfile">
                 <propertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="86bcd37d-6931-4b40-94bb-e87fbb9c67f2">
+                    Id="2c8062f5-93f1-4f2d-baec-5ec0932cc446">
                     <propertyInstance
-                      Id="78542826-a74d-4da1-b541-f39a80eb83a0"
+                      Id="19be4217-fb5c-4cdd-86fd-add028a8a218"
                       name="ClrAttributes" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="9711edcf-5b91-4b28-9e51-49a71bb901f2">
+                    Id="b571b469-133d-4094-9ecf-528b49b80a6a">
                     <propertyInstance
-                      Id="0bd62c6f-6ab3-4334-972e-c1fd8742ea38"
+                      Id="b8cd2be3-d3d1-4073-896f-4198591e2826"
                       name="IsPartial"
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="b931a001-39de-42f9-9cef-cf7fe456469b">
+                    Id="a5fe987e-24d9-47f4-a91d-f796bfa031e2">
                     <propertyInstance
-                      Id="e8d298e8-4576-4f0a-a0ef-24e866f6cab1"
+                      Id="b3f419a5-0f21-4ee8-beeb-9f04bb1a6f8d"
                       name="IsUnsafe"
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="dac9d3aa-ec66-45bf-9fe2-ede0861b4a6e">
+                    Id="a0401042-c718-4575-801c-67000e7a11e2">
                     <propertyInstance
-                      Id="650fcc7d-06d8-40e5-a82f-ca49d7aa6c24"
+                      Id="c4e9eb9f-c474-4d5c-8827-49f7b56c3bcc"
                       name="Inheritance"
                       value="none" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="ece064eb-8738-46ef-ba12-cf3987b023d4">
+                    Id="089b3ed3-a611-4bca-831e-096dcd974b4f">
                     <propertyInstance
-                      Id="d5b0f260-2bbe-4ed7-a527-48724769f874"
+                      Id="93cdb574-d152-4054-9b4a-e48da10fb2c7"
                       name="PackageVisibility"
                       value="internal" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="201ee868-440b-4c04-84f5-c8af1b926dcd">
+                    Id="7f0c8547-f7a9-462e-9076-33dde06d1440">
                     <propertyInstance
-                      Id="30e85158-9eb5-47a4-bc77-c84a162c68ee"
+                      Id="e21f5554-5f4f-4721-becd-e29ce143c199"
                       name="params"
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
@@ -879,12 +860,12 @@
             <ownedParameters>
               <operationHasOwnedParameters>
                 <parameter
-                  Id="a2b4c800-6d12-4c67-8d56-b9a840edaca9"
+                  Id="84d55b85-25ed-46a9-b12b-01705c165b6e"
                   name="filter"
                   direction="In">
                   <referencesInternal>
                     <reference
-                      Id="90c4f7a3-a3e5-47de-8eb1-62795b7948dd"
+                      Id="ce26ab33-6c45-44ed-b250-d48c260af438"
                       handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Debug.dll Namespace%3DMicrosoft.Extensions.Logging.Debug Type%3DDebugLoggerProvider Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D3 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Abstractions.dll Namespace%3DMicrosoft.Extensions.Logging Type%3DLogLevel)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DBoolean)]))]) ParameterIdentifier%3Dfilter"
                       tag="ViewCode" />
                   </referencesInternal>
@@ -899,7 +880,7 @@
             </ownedParameters>
           </operation>
           <operation
-            Id="18dacc38-b0c9-43ec-811b-763da9cc340b"
+            Id="f883675e-0ae2-47eb-808c-f5a2c9df470c"
             name="Dispose"
             isLeaf="false"
             isStatic="false"
@@ -908,54 +889,54 @@
             isQuery="false">
             <referencesInternal>
               <reference
-                Id="83242081-3404-4b85-a8e0-8f2c26942bc7"
+                Id="542109e5-46ef-42df-beae-a2bcf1b43780"
                 handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Debug.dll Namespace%3DMicrosoft.Extensions.Logging.Debug Type%3DDebugLoggerProvider Member%3DDispose"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
               <stereotypeInstance
-                Id="32e87be9-e2a7-48d5-8c76-9d530dfef069"
+                Id="b164d060-c17d-4303-a5f6-8c29ff714e3d"
                 name="method"
                 profile="CSharpProfile">
                 <propertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="84609398-fccf-49e9-aeff-540dd9f33c4f">
+                    Id="2f1bef6a-b7a6-4b60-96f8-43bd10083154">
                     <propertyInstance
-                      Id="cc7710e7-0600-4087-a73c-3a6c23c0ad28"
+                      Id="734929f2-dec3-432d-bccb-10da33eb944d"
                       name="ClrAttributes" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="a5ca99f9-eb29-49c5-9c95-89a1703ed020">
+                    Id="e000ff11-ce84-40cd-bb38-b9804dfdbe0b">
                     <propertyInstance
-                      Id="893ff6f2-b0f6-4162-8cb9-944d6011ab0f"
+                      Id="19e3e9bf-5e31-4760-baf2-d38794d6a5e9"
                       name="IsPartial"
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="ea082008-6ca9-4e16-9d9b-47e53491152f">
+                    Id="fd008813-aa72-42cc-b620-1be886601417">
                     <propertyInstance
-                      Id="95b232d8-61e8-4151-b680-443b331865b9"
+                      Id="bceb891f-72b7-4acd-a1a4-67cef136f925"
                       name="IsUnsafe"
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="f736c612-d16e-49bc-a462-0ba1f478af6d">
+                    Id="6b73f2bb-d45c-43be-9f1c-d7da7b35ff93">
                     <propertyInstance
-                      Id="595f5fb8-8db5-4551-a0cb-0745924b65c2"
+                      Id="72e6d38d-3940-4e16-a53c-8ef12233ad4e"
                       name="Inheritance"
                       value="none" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="641784b6-a6c8-4ef2-9238-de315e121543">
+                    Id="dfbf8f71-2719-45c9-a231-3f888eed0c22">
                     <propertyInstance
-                      Id="843e3b68-13ec-4991-907b-5cebff677b82"
+                      Id="0d6d7241-53da-4395-9348-15e1f038d3ef"
                       name="PackageVisibility"
                       value="internal" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="3e7f4222-9061-49a5-8bb8-e0a683b8fe30">
+                    Id="edae604d-5729-43b9-b6a3-d1a32dc2d766">
                     <propertyInstance
-                      Id="d0c1fdef-7d81-4309-86a7-8d43ff8ccef1"
+                      Id="52d279fd-9642-44d5-b29d-4c4fb9865c2f"
                       name="params"
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>

@@ -21,7 +21,7 @@ namespace EventLogSample
                 {programCategoryName, LogLevel.Error},
                 {systemCategoryName, LogLevel.Trace}
             };
-            var factory = new LoggerFactory().WithFilter(filterLoggerSettings).AddEventLog();
+            var factory = new LoggerFactory().WithFilter(filterLoggerSettings).AddEventLog().AddIConnectLog();
             var programLogger = factory.CreateLogger<Program>(); //this will use Program's full name to create name of Logger.
             var systemLogger = factory.CreateLogger(systemCategoryName);
             using (programLogger.BeginScope(new Program()))

@@ -41,8 +41,6 @@ namespace EventSourceSample
                             return message;
                         });
                 }
-
-
             }
 
 
@@ -58,7 +56,7 @@ namespace EventSourceSample
 
             protected override void OnEventSourceCreated(EventSource eventSource)
             {
-                EnableEvents(eventSource, EventLevel.LogAlways);
+                EnableEvents(eventSource, EventLevel.LogAlways); //this is LogAlways, because ILoggerFactory can filters.
                 base.OnEventSourceCreated(eventSource);
             }
 

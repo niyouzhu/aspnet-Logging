@@ -22,6 +22,13 @@
   </PropertyGroup>
   <Import Project="$(VSToolsPath)\ArchitectureTools\Microsoft.VisualStudio.TeamArchitect.ModelingProject.targets" Condition="'$(VSToolsPath)' != ''" />
   <ItemGroup>
+    <Content Include="Design.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Design.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Design.classdiagram</DependentUpon>
+    </Content>
     <Content Include="highlevel.classdiagram">
       <SubType>Content</SubType>
     </Content>
@@ -29,10 +36,16 @@
       <SubType>Content</SubType>
       <DependentUpon>highlevel.classdiagram</DependentUpon>
     </Content>
+    <Content Include="ModelDefinition\Package10_0954.uml">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="ModelDefinition\Package10_1105.uml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="ModelDefinition\Package10_1314.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package11_0954.uml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="ModelDefinition\Package11_1105.uml">
@@ -44,10 +57,19 @@
     <Content Include="ModelDefinition\Package13_1105.uml">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="ModelDefinition\Package1_0954.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package1_0957.uml">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="ModelDefinition\Package1_1105.uml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="ModelDefinition\Package1_1314.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package2_0954.uml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="ModelDefinition\Package2_1105.uml">
@@ -56,10 +78,16 @@
     <Content Include="ModelDefinition\Package2_1314.uml">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="ModelDefinition\Package3_0954.uml">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="ModelDefinition\Package3_1105.uml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="ModelDefinition\Package3_1314.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package4_0954.uml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="ModelDefinition\Package4_1105.uml">
@@ -68,10 +96,16 @@
     <Content Include="ModelDefinition\Package4_1314.uml">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="ModelDefinition\Package5_0954.uml">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="ModelDefinition\Package5_1105.uml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="ModelDefinition\Package5_1314.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package6_0954.uml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="ModelDefinition\Package6_1105.uml">
@@ -80,10 +114,16 @@
     <Content Include="ModelDefinition\Package6_1314.uml">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="ModelDefinition\Package7_0954.uml">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="ModelDefinition\Package7_1105.uml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="ModelDefinition\Package7_1314.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package8_0954.uml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="ModelDefinition\Package8_1105.uml">
@@ -92,16 +132,31 @@
     <Content Include="ModelDefinition\Package8_1314.uml">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="ModelDefinition\Package9_0954.uml">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="ModelDefinition\Package9_1105.uml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="ModelDefinition\Package9_1314.uml">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="ModelDefinition\Package_0954.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_0957.uml">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="ModelDefinition\Package_1105.uml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="ModelDefinition\Package_1106.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_1300.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_1301.uml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="ModelDefinition\Package_1313.uml">
@@ -113,23 +168,24 @@
     <Content Include="Overview.dgml">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="ReviewedDesign.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ReviewedDesign.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>ReviewedDesign.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="UMLSequenceDiagram1.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="UMLSequenceDiagram1.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>UMLSequenceDiagram1.sequencediagram</DependentUpon>
+    </Content>
     <Folder Include="ModelDefinition\" />
     <Content Include="ModelDefinition\Microsoft.Extensions.Logging.Modeling.uml">
       <SubType>Content</SubType>
     </Content>
-  </ItemGroup>
-  <ItemGroup>
-    <Validate Include="LayerDiagram1.layerdiagram">
-      <SubType>Content</SubType>
-    </Validate>
-    <Validate Include="LayerDiagram1.layerdiagram.layout">
-      <SubType>Content</SubType>
-      <DependentUpon>LayerDiagram1.layerdiagram</DependentUpon>
-    </Validate>
-    <Validate Include="LayerDiagram1.layerdiagram.suppressions">
-      <SubType>Content</SubType>
-      <DependentUpon>LayerDiagram1.layerdiagram</DependentUpon>
-    </Validate>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Microsoft.Extensions.Logging, Version=1.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60">

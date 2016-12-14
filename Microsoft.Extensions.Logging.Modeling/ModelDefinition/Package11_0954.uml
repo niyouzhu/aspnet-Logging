@@ -1,0 +1,1326 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner"
+  dslVersion="1.0.0.0"
+  Id="92374561-cbe4-4faf-b863-dee54834da16"
+  name="Internal"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="0d94fafd-cb17-43ce-9c43-b17f6ea39de7"
+      handle="viewcode://./CodeSchema_Namespace?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Filter.dll Namespace%3DMicrosoft.Extensions.Logging.Filter.Internal"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="43d1b706-c86d-4080-ae0a-da586a49dfba"
+        name="FilterLogger"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="affbd9b3-cd14-466e-b1f4-ef2aa48e28bb"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Filter.dll Namespace%3DMicrosoft.Extensions.Logging.Filter.Internal Type%3DFilterLogger"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="144fe12d-c53a-4271-985f-c71df2c03ae2"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1e10a1de-90c7-4e12-b385-545d92cc5b05">
+                <propertyInstance
+                  Id="2d0a90a9-09e6-4487-bf2e-3b93b0022c81"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ca3e627a-7fc3-4f6c-b1d8-76c1695b13d7">
+                <propertyInstance
+                  Id="a88c58fb-b538-4fe7-88a6-0b0c5b14f1f7"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7a839630-8bdb-44ef-a108-e2be93dbf9de">
+                <propertyInstance
+                  Id="aaefab77-4257-43a1-85d6-07828d6ba8d9"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="00a2758d-ffd0-4b71-97f7-728e4c289a99">
+                <propertyInstance
+                  Id="178f0b86-3df2-443d-b9b4-131d9d9cbe01"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c1fcd068-fb8b-4e19-b4de-2aac5e67bb9d">
+                <propertyInstance
+                  Id="73afbf8e-9c36-4c04-be68-0ede60f8333c"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="d61b6834-f6d0-4d0e-8298-7b9911f08683">
+            <interfaceMoniker
+              Id="bd4cb367-a2d7-430c-a8f0-d990838068d0"
+              LastKnownName="ILogger"
+              LastKnownLocation="Package_0954.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="910bc9db-0d72-45f8-a669-d2803b7699f9"
+            name="BeginScope‎&lt;TState‎&gt;"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="97d2e027-f383-4fa0-95a0-bb857ca7d4a4"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Filter.dll Namespace%3DMicrosoft.Extensions.Logging.Filter.Internal Type%3DFilterLogger Member%3D(Name%3DBeginScope GenericParameterCount%3D1 OverloadingParameters%3D[(ParameterIdentifier%3D0)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="fa7fc359-9f0a-4830-9650-2f918aa2c3ea"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="919ac1b3-b999-4a66-9cb1-de858d6a76bb">
+                    <propertyInstance
+                      Id="5bcdb5d2-1db1-4ea0-a924-6c1c8254aad7"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="799fca34-7bd7-455b-9a60-e46ad6b74e7c">
+                    <propertyInstance
+                      Id="31df8ee7-1cfb-4697-a926-bc54493e2d05"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5655756f-9781-4e82-8a7e-b53ae268b7e1">
+                    <propertyInstance
+                      Id="c47df591-f027-4dd2-8db3-144e463e1c31"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6569503c-6850-42cc-9511-11ba7655b6cf">
+                    <propertyInstance
+                      Id="b14ccc5b-494a-4570-9130-3a853156df48"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9bfc3102-9e55-475d-ab22-1056cebe5e4f">
+                    <propertyInstance
+                      Id="d1aa7764-882c-4bb9-82f6-d5d7918cbaf2"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6f09c59c-0ed6-48f1-9ef4-2fdfa055903b">
+                    <propertyInstance
+                      Id="5a40a990-bd22-4c2c-96a5-0c701bca5123"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="f9b3104d-c2a7-4e86-9958-b0bcd0a66b88"
+                  direction="Return">
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="6787b09a-198f-4b1d-b30a-45ad38aa6277"
+                      LastKnownName="IDisposable"
+                      LastKnownLocation="Package3_1105.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="89c5a60d-f139-48d6-9a61-a7524a24fedd"
+                  name="state"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="a3c78038-a143-4c9b-b8e3-309873dec6be"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Filter.dll Namespace%3DMicrosoft.Extensions.Logging.Filter.Internal Type%3DFilterLogger Member%3D(Name%3DBeginScope GenericParameterCount%3D1 OverloadingParameters%3D[(ParameterIdentifier%3D0)]) ParameterIdentifier%3Dstate"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="d3c4507d-900d-40a6-8312-fb27088e458e"
+                      LastKnownName="TState"
+                      LastKnownLocation="Package_1314.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="4a51b962-2f10-41b7-a104-c628759a2b7b"
+            name="FilterLogger"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="967561b7-5395-4442-ad88-4e664dc424a3"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Filter.dll Namespace%3DMicrosoft.Extensions.Logging.Filter.Internal Type%3DFilterLogger Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Abstractions.dll Namespace%3DMicrosoft.Extensions.Logging Type%3DILogger)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Filter.dll Namespace%3DMicrosoft.Extensions.Logging Type%3DIFilterLoggerSettings)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="68404f9c-085a-40a5-bfbc-5cdeb829401a"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="700f6878-6380-4c40-977d-ef1edfb5f2f3">
+                    <propertyInstance
+                      Id="96361f4d-4539-4ccd-b654-1e6358fa67c1"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9c8658fe-0b04-4182-9f47-39d6c37bfb19">
+                    <propertyInstance
+                      Id="5f20f5f0-91bf-4988-8d28-24c343bbc870"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="747af37d-d7a0-45a9-81cf-9f17d907eede">
+                    <propertyInstance
+                      Id="d4d742c7-1acf-4510-9660-9d342938e6b4"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f1de758b-a57e-405f-8216-8a4509991916">
+                    <propertyInstance
+                      Id="ad443e2a-5798-40eb-a3e7-15f6227e9152"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0f2a2bb3-e27d-4670-b43c-2fbce2f83b0e">
+                    <propertyInstance
+                      Id="b8693661-4211-4618-9f54-c552c644787a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="08775a69-fec2-4deb-895a-3c75a61ed66a">
+                    <propertyInstance
+                      Id="0c8fcb96-34a8-437e-b83e-178a267984c4"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="d898ced6-eb93-4350-8f1c-b6d3d38762ce"
+                  name="innerLogger"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="32b2b7e6-221b-473f-99dc-937d4e0697b4"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Filter.dll Namespace%3DMicrosoft.Extensions.Logging.Filter.Internal Type%3DFilterLogger Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Abstractions.dll Namespace%3DMicrosoft.Extensions.Logging Type%3DILogger)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Filter.dll Namespace%3DMicrosoft.Extensions.Logging Type%3DIFilterLoggerSettings)]) ParameterIdentifier%3DinnerLogger"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="fd8558ec-dac0-4531-a60a-510b53e470ad"
+                      LastKnownName="ILogger"
+                      LastKnownLocation="Package2_1105.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="890e7399-ba3b-4292-8580-938a6f39972d"
+                  name="categoryName"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="af37b58b-9cd2-4127-bcac-dce77cd7f812"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Filter.dll Namespace%3DMicrosoft.Extensions.Logging.Filter.Internal Type%3DFilterLogger Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Abstractions.dll Namespace%3DMicrosoft.Extensions.Logging Type%3DILogger)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Filter.dll Namespace%3DMicrosoft.Extensions.Logging Type%3DIFilterLoggerSettings)]) ParameterIdentifier%3DcategoryName"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="Microsoft.Extensions.Logging.Modeling.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="4b273816-0185-4d5b-9639-48e1fbaf08a8"
+                  name="settings"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="aa3507e2-b905-4e50-967f-af80bf3d2446"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Filter.dll Namespace%3DMicrosoft.Extensions.Logging.Filter.Internal Type%3DFilterLogger Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Abstractions.dll Namespace%3DMicrosoft.Extensions.Logging Type%3DILogger)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Filter.dll Namespace%3DMicrosoft.Extensions.Logging Type%3DIFilterLoggerSettings)]) ParameterIdentifier%3Dsettings"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="67ace774-8181-4a86-86d9-838eba0013b5"
+                      LastKnownName="IFilterLoggerSettings"
+                      LastKnownLocation="Package2_1105.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="144394c3-92d5-4de8-a201-77b94ca240c4"
+            name="IsEnabled"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="3348c109-bc2c-41ad-9f31-4308b795fb9b"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Filter.dll Namespace%3DMicrosoft.Extensions.Logging.Filter.Internal Type%3DFilterLogger Member%3D(Name%3DIsEnabled OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Abstractions.dll Namespace%3DMicrosoft.Extensions.Logging Type%3DLogLevel)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e2769124-7bde-4f46-bcba-839c99ea8669"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2fad1da4-3faa-4d43-98e7-1ed975ea8bfe">
+                    <propertyInstance
+                      Id="826a8314-f96e-4155-b9e1-4a12d92f47a5"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9d686836-226c-4bf6-a2db-41f5cca0179c">
+                    <propertyInstance
+                      Id="b21c4094-86c9-4f94-8ca5-d2d3b54a3d18"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="73ac65ce-0930-4340-a16a-86da5d5fde4f">
+                    <propertyInstance
+                      Id="37e0e3d5-bff3-4ab2-8e0d-a26d4c85db8c"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4b223ddf-35af-40a0-9f54-2fbf00346d6b">
+                    <propertyInstance
+                      Id="e691f24d-b52b-42c1-ae87-35f6408dd01e"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e4946d30-975a-468a-9762-60c9ac7517f9">
+                    <propertyInstance
+                      Id="ef02cd3d-98c7-479d-a9a5-0aa306ccc01a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0923d044-8b19-4450-8b80-1e72c040d2c2">
+                    <propertyInstance
+                      Id="63991872-40ac-447a-947b-aa52761f52f4"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="cee76982-01d9-4b1b-ab34-a6ab438afab0"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+                      LastKnownName="Boolean"
+                      LastKnownLocation="Microsoft.Extensions.Logging.Modeling.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="9b28a09d-e8ef-4e3f-a252-220709a16eb6"
+                  name="logLevel"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="fc2a4986-7876-4354-bb3e-07488fee678c"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Filter.dll Namespace%3DMicrosoft.Extensions.Logging.Filter.Internal Type%3DFilterLogger Member%3D(Name%3DIsEnabled OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Abstractions.dll Namespace%3DMicrosoft.Extensions.Logging Type%3DLogLevel)]) ParameterIdentifier%3DlogLevel"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <enumerationMoniker
+                      Id="7ea84c25-72e9-474d-b93d-ccfee1b6cc64"
+                      LastKnownName="LogLevel"
+                      LastKnownLocation="Package2_1105.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="2a7b2086-8b1c-4b4a-a002-8603ca0637a9"
+            name="Log‎&lt;TState‎&gt;"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="620ce34f-2ca5-4b1e-a4bf-8656678cbb47"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Filter.dll Namespace%3DMicrosoft.Extensions.Logging.Filter.Internal Type%3DFilterLogger Member%3D(Name%3DLog GenericParameterCount%3D1 OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Abstractions.dll Namespace%3DMicrosoft.Extensions.Logging Type%3DLogLevel)%2C(Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Abstractions.dll Namespace%3DMicrosoft.Extensions.Logging Type%3DEventId)%2C(ParameterIdentifier%3D0)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DException)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D3 GenericArguments%3D[(ParameterIdentifier%3D0)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DException)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="08620077-6e02-46b8-902a-c78abdb2a527"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="99d4ec87-387b-48b0-b75b-70d89100dfea">
+                    <propertyInstance
+                      Id="1dd6ada3-fb80-4b71-b40d-6ceedff9f088"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9f00e306-4eef-47a9-b167-e38ac4dbd7fb">
+                    <propertyInstance
+                      Id="f6bbc824-bbb3-44db-82a1-ef2ce3883c42"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="546bed76-7570-432e-a873-e26c808c6a7a">
+                    <propertyInstance
+                      Id="e90f6457-2c6e-4354-9219-9a36a99d01a1"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9d73485b-3d1b-4c2c-9b90-fd757ba9ae4c">
+                    <propertyInstance
+                      Id="4352e729-80bc-4bc9-b92a-5d6485699050"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="10196abb-5763-4a16-8683-278b0bfe53a5">
+                    <propertyInstance
+                      Id="af991e23-31bd-4f04-bfcd-6595c610e4e8"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c9135ddd-9529-4b11-97d5-1607e1dd1632">
+                    <propertyInstance
+                      Id="82f6d999-8d37-41fb-b61c-8b58ae22f5ad"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="c23238f4-5a3f-40f4-ab0a-b2918264d1da"
+                  name="logLevel"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="61bb4295-d72f-4add-aaf2-2fa3247bc000"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Filter.dll Namespace%3DMicrosoft.Extensions.Logging.Filter.Internal Type%3DFilterLogger Member%3D(Name%3DLog GenericParameterCount%3D1 OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Abstractions.dll Namespace%3DMicrosoft.Extensions.Logging Type%3DLogLevel)%2C(Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Abstractions.dll Namespace%3DMicrosoft.Extensions.Logging Type%3DEventId)%2C(ParameterIdentifier%3D0)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DException)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D3 GenericArguments%3D[(ParameterIdentifier%3D0)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DException)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]))]) ParameterIdentifier%3DlogLevel"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <enumerationMoniker
+                      Id="7ea84c25-72e9-474d-b93d-ccfee1b6cc64"
+                      LastKnownName="LogLevel"
+                      LastKnownLocation="Package2_1105.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="2d7c6281-d1cb-4d52-a1cb-915259b713cf"
+                  name="eventId"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="6e74bc80-f178-4d5f-9cf4-c50e9367a116"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Filter.dll Namespace%3DMicrosoft.Extensions.Logging.Filter.Internal Type%3DFilterLogger Member%3D(Name%3DLog GenericParameterCount%3D1 OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Abstractions.dll Namespace%3DMicrosoft.Extensions.Logging Type%3DLogLevel)%2C(Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Abstractions.dll Namespace%3DMicrosoft.Extensions.Logging Type%3DEventId)%2C(ParameterIdentifier%3D0)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DException)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D3 GenericArguments%3D[(ParameterIdentifier%3D0)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DException)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]))]) ParameterIdentifier%3DeventId"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="920c49a0-57ad-4e21-a079-d2d7e8a98e79"
+                      LastKnownName="EventId"
+                      LastKnownLocation="Package2_1105.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="574d5ab8-a8f0-4876-a8a4-c8e89d27ebd9"
+                  name="state"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="3d2bc4a4-f89b-4bd7-ade4-e463a9ff257d"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Filter.dll Namespace%3DMicrosoft.Extensions.Logging.Filter.Internal Type%3DFilterLogger Member%3D(Name%3DLog GenericParameterCount%3D1 OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Abstractions.dll Namespace%3DMicrosoft.Extensions.Logging Type%3DLogLevel)%2C(Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Abstractions.dll Namespace%3DMicrosoft.Extensions.Logging Type%3DEventId)%2C(ParameterIdentifier%3D0)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DException)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D3 GenericArguments%3D[(ParameterIdentifier%3D0)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DException)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]))]) ParameterIdentifier%3Dstate"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="d3c4507d-900d-40a6-8312-fb27088e458e"
+                      LastKnownName="TState"
+                      LastKnownLocation="Package_1314.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="59c20fb7-9953-4354-98ce-0a66b70cb211"
+                  name="exception"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="92047f5b-34a8-4dde-963d-197a9a17d5f0"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Filter.dll Namespace%3DMicrosoft.Extensions.Logging.Filter.Internal Type%3DFilterLogger Member%3D(Name%3DLog GenericParameterCount%3D1 OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Abstractions.dll Namespace%3DMicrosoft.Extensions.Logging Type%3DLogLevel)%2C(Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Abstractions.dll Namespace%3DMicrosoft.Extensions.Logging Type%3DEventId)%2C(ParameterIdentifier%3D0)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DException)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D3 GenericArguments%3D[(ParameterIdentifier%3D0)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DException)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]))]) ParameterIdentifier%3Dexception"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="44755165-d406-4be7-a66e-e43fe585b940"
+                      LastKnownName="Exception"
+                      LastKnownLocation="Package3_1105.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="fbca34ea-ad21-45b0-843f-964528e44ccd"
+                  name="formatter"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="de27906d-e216-43e0-bd2e-9d074f40f819"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Filter.dll Namespace%3DMicrosoft.Extensions.Logging.Filter.Internal Type%3DFilterLogger Member%3D(Name%3DLog GenericParameterCount%3D1 OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Abstractions.dll Namespace%3DMicrosoft.Extensions.Logging Type%3DLogLevel)%2C(Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Abstractions.dll Namespace%3DMicrosoft.Extensions.Logging Type%3DEventId)%2C(ParameterIdentifier%3D0)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DException)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D3 GenericArguments%3D[(ParameterIdentifier%3D0)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DException)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]))]) ParameterIdentifier%3Dformatter"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="ee30ad1a-04d5-4f97-8337-56580bd6b722"
+                      LastKnownName="Func&lt;TState‎, Exception‎, String‎&gt;"
+                      LastKnownLocation="Package3_1105.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="2c6e1446-24c2-4ddc-ac19-b031f3eafbd8"
+        name="FilterLoggerFactory"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="442b3fcb-c58f-4ad2-b510-5148f60a74e6"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Filter.dll Namespace%3DMicrosoft.Extensions.Logging.Filter.Internal Type%3DFilterLoggerFactory"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="ad06a0d4-0d15-4989-b2cd-61676429aa0d"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ce979cb4-70c2-4d28-a1f6-bb910158c702">
+                <propertyInstance
+                  Id="62092c4d-8342-42a8-b5ee-e381891657ba"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e25b1db1-d7ce-4369-991b-fb32a6c274d7">
+                <propertyInstance
+                  Id="ce038d41-f76d-4ee7-9f81-30c9d21340e2"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2e6a3f31-8e5b-4cae-9514-af4b8d9e028f">
+                <propertyInstance
+                  Id="984b0c52-c55a-4215-af1e-da7eab8a3d24"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0084451f-42c3-496c-bcd2-d23bf0d2a6a9">
+                <propertyInstance
+                  Id="e8cc6372-f69d-471c-ab0a-e3f87be04810"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7554ce2d-7182-479b-9033-212c90692088">
+                <propertyInstance
+                  Id="f1b43745-f7c9-423e-a47e-3410b4cc621c"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="0540a23c-e109-487c-8ff0-ae3824347c83">
+            <interfaceMoniker
+              Id="2da84e55-be23-4806-901f-1593f836a1a1"
+              LastKnownName="ILoggerFactory"
+              LastKnownLocation="Package_0954.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="fc612435-a333-41d2-9887-89ee5324f545"
+            name="AddProvider"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="acc04e34-06e4-4a50-bcc1-0118726929a3"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Filter.dll Namespace%3DMicrosoft.Extensions.Logging.Filter.Internal Type%3DFilterLoggerFactory Member%3D(Name%3DAddProvider OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Abstractions.dll Namespace%3DMicrosoft.Extensions.Logging Type%3DILoggerProvider)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="bc4fa81e-a498-42df-b934-c179555b33d5"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="de17b71f-2563-40e5-a6f8-db8e49d30d9b">
+                    <propertyInstance
+                      Id="326853f2-8857-4b44-8fe9-8dfa0f50995b"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4e549d88-b918-4541-9e09-e93cc223de40">
+                    <propertyInstance
+                      Id="f8dd6ac4-0bbd-42f5-b1bb-63246a1086ff"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2ff36094-ebd2-40db-a728-a3cf458c6c1b">
+                    <propertyInstance
+                      Id="9b605ec5-a08e-43fe-ac36-293eadf1cb98"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="60f9d9ed-f48d-4a0a-ada0-31f29549f1ce">
+                    <propertyInstance
+                      Id="58ce53d1-c370-4739-9c55-f5e78f13071a"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="47b32047-3393-4ef3-83e9-bd5a0658bfee">
+                    <propertyInstance
+                      Id="9110c8bc-cc28-4df7-92e4-620fbe5aed15"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="df253a63-c434-4e58-b2da-6aac7ed9a1b2">
+                    <propertyInstance
+                      Id="d50f45dc-2e44-423f-badb-117847b5355d"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="124e7c48-2b0a-49d7-9ae6-a2aadb0d587a"
+                  name="provider"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="0887d265-4010-4067-84bf-bc5d6a8bab6d"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Filter.dll Namespace%3DMicrosoft.Extensions.Logging.Filter.Internal Type%3DFilterLoggerFactory Member%3D(Name%3DAddProvider OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Abstractions.dll Namespace%3DMicrosoft.Extensions.Logging Type%3DILoggerProvider)]) ParameterIdentifier%3Dprovider"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="ad060812-8d94-419a-8818-e0cb92931514"
+                      LastKnownName="ILoggerProvider"
+                      LastKnownLocation="Package2_1105.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="02378be2-7726-4bcb-9c8f-468d2d6e7699"
+            name="CreateLogger"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="7803b667-ac3f-4494-a4b6-7f98d127d41d"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Filter.dll Namespace%3DMicrosoft.Extensions.Logging.Filter.Internal Type%3DFilterLoggerFactory Member%3D(Name%3DCreateLogger OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b5a6c7bd-aeb0-4d79-91cc-66afbe5d169a"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="12d8122b-bddf-48ea-ab30-632fd4c8be3c">
+                    <propertyInstance
+                      Id="49b85b87-91c5-4f32-bf93-62c16298fd9c"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="50b3645b-df87-4043-be1b-dd950882fd46">
+                    <propertyInstance
+                      Id="c4262d2f-5c29-47c4-aa62-6b64103d36a5"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="76a3a265-17b0-4f71-bac8-b9510f920bcd">
+                    <propertyInstance
+                      Id="69c08c8e-7d37-4541-9eb5-c5415ec7df4f"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="35399dc1-08e2-4962-bbe5-7205e268cfb9">
+                    <propertyInstance
+                      Id="b2f28214-cfbb-49a6-a082-709dcaa266c7"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="259a66ca-4672-4f0b-bc14-bf46ad8869cb">
+                    <propertyInstance
+                      Id="8808e7f9-a191-4e0c-866a-bbda05370a26"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="076d937b-73c8-4502-9f09-8d6bd5f76d9d">
+                    <propertyInstance
+                      Id="9f49fae9-b070-4668-909d-849d48918a36"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="4d54b6a9-b65b-473a-a607-b155aa20005b"
+                  direction="Return">
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="fd8558ec-dac0-4531-a60a-510b53e470ad"
+                      LastKnownName="ILogger"
+                      LastKnownLocation="Package2_1105.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="a469f81c-b8bc-4902-a550-67ad525684b4"
+                  name="categoryName"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="e0cf2cd4-893e-4da4-b18f-777e227c1069"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Filter.dll Namespace%3DMicrosoft.Extensions.Logging.Filter.Internal Type%3DFilterLoggerFactory Member%3D(Name%3DCreateLogger OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3DcategoryName"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="Microsoft.Extensions.Logging.Modeling.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="bafb9587-9b92-4b1d-82f5-aadfa3915daa"
+            name="Dispose"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="f047b319-d975-4062-a2a4-478b3577c8d1"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Filter.dll Namespace%3DMicrosoft.Extensions.Logging.Filter.Internal Type%3DFilterLoggerFactory Member%3DDispose"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="0e2ed1f5-6c6e-4bc4-ade9-7f44e0501668"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="188c0596-d5b3-4a90-ab18-70c9a0c221b5">
+                    <propertyInstance
+                      Id="b7b7d94d-2a83-49aa-a4cf-9880c909d064"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0fce4c76-2b43-4371-82cc-768e50384f6f">
+                    <propertyInstance
+                      Id="d5672ec2-b4e7-48ca-a91e-7c92481cf3fa"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="65cc8f44-7db9-46f4-afb7-b484fafdaa09">
+                    <propertyInstance
+                      Id="3cff75cf-8794-4b5c-ad44-61a87f1c25a0"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="24dc8c24-72c7-4646-a89d-c3a4c9511032">
+                    <propertyInstance
+                      Id="8c7a4d3b-b1bd-4d90-b832-def77cb49606"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="956323e7-32f1-45ba-9d81-c6fa0a17faee">
+                    <propertyInstance
+                      Id="a5415e43-63e9-421f-a950-27239abc47ca"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9bb4c0ce-d2d1-4362-9cb4-b8f0cc38e0bf">
+                    <propertyInstance
+                      Id="a9da3635-a78f-41d6-9d2f-c2a211f6b7e7"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="a5ea1e90-4d19-433a-9104-dfbb10051c1f"
+            name="FilterLoggerFactory"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="d8c9da2f-2c43-442f-8623-2dc183e1e38d"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Filter.dll Namespace%3DMicrosoft.Extensions.Logging.Filter.Internal Type%3DFilterLoggerFactory Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Abstractions.dll Namespace%3DMicrosoft.Extensions.Logging Type%3DILoggerFactory)%2C(Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Filter.dll Namespace%3DMicrosoft.Extensions.Logging Type%3DIFilterLoggerSettings)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a11bd93e-4a73-4ac0-bb21-3fcdcc2da0db"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e0f7ce7d-d8db-48da-8a26-dd26fcbe3b9b">
+                    <propertyInstance
+                      Id="9640bb7c-f0ce-4465-9c56-72d6ee324365"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2bec9252-1bde-4741-9948-466a59ce1038">
+                    <propertyInstance
+                      Id="a201e265-a56b-43e4-9566-7bf5fca3b50d"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ef4e42cd-4e5b-4cb5-a422-df753383ee81">
+                    <propertyInstance
+                      Id="b19f171f-2a49-40c0-8e82-f050b2d79ccc"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4d375a02-dd12-4d26-b2e8-c6f5af35de5f">
+                    <propertyInstance
+                      Id="0dc4b093-adcb-4bec-b5a9-7ee75273182f"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ef1117d4-5930-4902-ab37-ebde0c16aefa">
+                    <propertyInstance
+                      Id="c98023b8-0ce0-463c-89bb-5ac33951cf85"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="67c25173-6839-4a1b-801d-34e1c24502c9">
+                    <propertyInstance
+                      Id="b7acea9b-c0ce-4508-b156-29f725051dae"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="03821c11-aee2-4691-99a6-0e472d4dbeed"
+                  name="innerLoggerFactory"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="e868c0ce-9de6-416b-9645-627c4eb58bd3"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Filter.dll Namespace%3DMicrosoft.Extensions.Logging.Filter.Internal Type%3DFilterLoggerFactory Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Abstractions.dll Namespace%3DMicrosoft.Extensions.Logging Type%3DILoggerFactory)%2C(Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Filter.dll Namespace%3DMicrosoft.Extensions.Logging Type%3DIFilterLoggerSettings)]) ParameterIdentifier%3DinnerLoggerFactory"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="b103089a-c7bd-4091-895b-22c0f2749fb9"
+                      LastKnownName="ILoggerFactory"
+                      LastKnownLocation="Package2_1105.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="e9eb1c1e-8340-444e-a288-3706d157b19f"
+                  name="settings"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="49be8e97-3f62-49c2-8555-959b872d20cf"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Filter.dll Namespace%3DMicrosoft.Extensions.Logging.Filter.Internal Type%3DFilterLoggerFactory Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Abstractions.dll Namespace%3DMicrosoft.Extensions.Logging Type%3DILoggerFactory)%2C(Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Filter.dll Namespace%3DMicrosoft.Extensions.Logging Type%3DIFilterLoggerSettings)]) ParameterIdentifier%3Dsettings"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="67ace774-8181-4a86-86d9-838eba0013b5"
+                      LastKnownName="IFilterLoggerSettings"
+                      LastKnownLocation="Package2_1105.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="3f5e7c7a-cc47-4f4c-a6d5-d5a1de0609bd"
+        name="FilterLoggerProvider"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="dafbbe29-aa6e-4a61-9fe5-c26c2b0cab0f"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Filter.dll Namespace%3DMicrosoft.Extensions.Logging.Filter.Internal Type%3DFilterLoggerProvider"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="13d08b68-67c8-40be-a8e2-4863179a0935"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fa0b7145-35c5-4dc0-9c50-55a5dc072d0d">
+                <propertyInstance
+                  Id="ce77d301-6f86-44ec-b838-2fdb181a54be"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="92afc7aa-2412-4676-956a-0ba51331add2">
+                <propertyInstance
+                  Id="fcfaa5c3-96e2-40e6-b347-e593c19e7017"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9c783e52-2ec1-4bc6-a69d-d0ebf05d6555">
+                <propertyInstance
+                  Id="be503737-4f06-4b39-a0c7-b50504fce790"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f988117a-3987-40a7-8cb5-9251702313cb">
+                <propertyInstance
+                  Id="b9bca216-f868-4b47-b168-8e862eddf162"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a9a8ecf5-52f6-491a-ae86-b41c9cdb246c">
+                <propertyInstance
+                  Id="714f0913-3717-436a-b062-a33d4315891c"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="6b6382ee-465c-4897-9cb2-844cacce2f70">
+            <interfaceMoniker
+              Id="7e437337-251f-4714-8e16-7e5c28169423"
+              LastKnownName="ILoggerProvider"
+              LastKnownLocation="Package_0954.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="8fcb1267-bb4a-4459-a6f1-c9597783b6ed"
+            name="CreateLogger"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="eb9210e5-3bda-4599-b28e-5ec98b1aebe4"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Filter.dll Namespace%3DMicrosoft.Extensions.Logging.Filter.Internal Type%3DFilterLoggerProvider Member%3D(Name%3DCreateLogger OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="da950fb9-872b-4010-8816-9648afcc5561"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f2454d47-608e-454a-8136-84a3a0872880">
+                    <propertyInstance
+                      Id="024bb406-fa82-4a58-bac0-f8a7a72bd79b"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c3496cb1-0935-488b-9c85-66204671260d">
+                    <propertyInstance
+                      Id="a4bb6411-7562-4dd8-bf5c-9b8b26026a26"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b9b99d2f-b87c-4bdd-8a17-22aea9405052">
+                    <propertyInstance
+                      Id="e30ebbb1-5696-4ce2-a61a-a1a2744b5a22"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e1affe79-28bd-4426-bef2-b74a55174b01">
+                    <propertyInstance
+                      Id="04c07f27-7730-45cb-9273-ac269ce5f825"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ffab7d6c-160c-4c5a-b821-592950933449">
+                    <propertyInstance
+                      Id="b7a06047-fac2-4966-af07-dadfa69ad870"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ccac0a5b-42d9-4b15-95a4-1a2e73017167">
+                    <propertyInstance
+                      Id="e1616982-40fa-43bf-94f2-f0baee2b5bd8"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="d39d3d05-5cda-49e2-b2c9-489611e36c1f"
+                  direction="Return">
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="fd8558ec-dac0-4531-a60a-510b53e470ad"
+                      LastKnownName="ILogger"
+                      LastKnownLocation="Package2_1105.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="17feee87-8542-4d32-a6ac-7d27b7ceb412"
+                  name="categoryName"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="697fa4ef-379a-4385-a5ba-f252ffc63bf9"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Filter.dll Namespace%3DMicrosoft.Extensions.Logging.Filter.Internal Type%3DFilterLoggerProvider Member%3D(Name%3DCreateLogger OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3DcategoryName"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="Microsoft.Extensions.Logging.Modeling.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="3b7b8b31-fea0-4f67-bfcc-8f9b8861f15c"
+            name="Dispose"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="190f4219-3ee3-4e06-956a-3263c7bf7fe7"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Filter.dll Namespace%3DMicrosoft.Extensions.Logging.Filter.Internal Type%3DFilterLoggerProvider Member%3DDispose"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="2133ad4a-d5e0-41c1-9fa4-de5c070d33d4"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8e61541c-1506-4a68-96e4-9d814d987db2">
+                    <propertyInstance
+                      Id="1a484cd1-3497-488d-8355-920760fe503d"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="66aabcab-bc15-4ed1-8b15-ee8f9c3f5c38">
+                    <propertyInstance
+                      Id="f77934d5-78ec-40b0-8075-0024b8f8f4f7"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3e14e180-2db0-4a26-a7ac-3a9150aed414">
+                    <propertyInstance
+                      Id="7d424e84-d1de-4db0-a1e3-4bdd132f907c"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="70e0d90b-b06d-4c7d-b781-bef141520008">
+                    <propertyInstance
+                      Id="890cc8e5-aed8-4f05-bef4-d0665a69efdf"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ad0e2f09-ede3-4ac7-bcf4-4193cc0b046a">
+                    <propertyInstance
+                      Id="e8a873eb-3f45-46fc-b17d-56d8e59d5eb7"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ffea4742-9d9b-4433-8503-f75609ed5c34">
+                    <propertyInstance
+                      Id="a7be8618-e8eb-437b-ba11-8e79940b1e74"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="850d3878-9fb8-4c35-8359-db7ad5c8699e"
+            name="FilterLoggerProvider"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="abeb9359-5a56-42ae-9e06-db5f2530e16e"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Filter.dll Namespace%3DMicrosoft.Extensions.Logging.Filter.Internal Type%3DFilterLoggerProvider Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Abstractions.dll Namespace%3DMicrosoft.Extensions.Logging Type%3DILoggerProvider)%2C(Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Filter.dll Namespace%3DMicrosoft.Extensions.Logging Type%3DIFilterLoggerSettings)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="495c12b7-39cd-496d-8b1f-0ba7d98b493b"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="93f69549-0d1a-4891-b971-104d64b3c82a">
+                    <propertyInstance
+                      Id="be2e91b0-8b99-4a2b-b269-0ed8c99b2ace"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="67328f08-5827-4387-a328-d6813ce49c8e">
+                    <propertyInstance
+                      Id="071e672e-b40b-4342-93db-ed162902b59c"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1469b618-ce24-4882-89ad-73729ba1c56e">
+                    <propertyInstance
+                      Id="94f78e37-a6fc-4a30-b76c-4a45330d39fd"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a0854bf0-85f0-4c6b-933b-c1cf3c7a3973">
+                    <propertyInstance
+                      Id="3300b8cb-db15-41a5-a88c-0bdd27b4c2be"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="23606f45-9655-40d1-8377-836240fa981a">
+                    <propertyInstance
+                      Id="7ace720e-e398-44fc-9931-f0a2b4d91841"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="82020d28-1e78-4c64-8557-6dd58bbb8791">
+                    <propertyInstance
+                      Id="ae88effd-af11-4c78-a2f5-67d88b9361e3"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="4b1a9d10-b76e-4941-a390-bdd4bd4a37a0"
+                  name="innerLoggerProvider"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="9ba30d17-4ee3-4abc-b4c3-bcae8f233e86"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Filter.dll Namespace%3DMicrosoft.Extensions.Logging.Filter.Internal Type%3DFilterLoggerProvider Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Abstractions.dll Namespace%3DMicrosoft.Extensions.Logging Type%3DILoggerProvider)%2C(Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Filter.dll Namespace%3DMicrosoft.Extensions.Logging Type%3DIFilterLoggerSettings)]) ParameterIdentifier%3DinnerLoggerProvider"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="ad060812-8d94-419a-8818-e0cb92931514"
+                      LastKnownName="ILoggerProvider"
+                      LastKnownLocation="Package2_1105.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="58215f10-e243-4ea7-b8cc-9bd63b0252bc"
+                  name="settings"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="b69da5e4-83a9-4573-b9a9-f9edf252bf50"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Filter.dll Namespace%3DMicrosoft.Extensions.Logging.Filter.Internal Type%3DFilterLoggerProvider Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Abstractions.dll Namespace%3DMicrosoft.Extensions.Logging Type%3DILoggerProvider)%2C(Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Filter.dll Namespace%3DMicrosoft.Extensions.Logging Type%3DIFilterLoggerSettings)]) ParameterIdentifier%3Dsettings"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="67ace774-8181-4a86-86d9-838eba0013b5"
+                      LastKnownName="IFilterLoggerSettings"
+                      LastKnownLocation="Package2_1105.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

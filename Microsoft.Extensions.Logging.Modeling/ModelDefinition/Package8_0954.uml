@@ -1,0 +1,1162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner"
+  dslVersion="1.0.0.0"
+  Id="89f851ed-acc6-4487-9ef0-80fde77fb884"
+  name="TraceSource"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="02b1d34d-8d66-42ce-b05a-284c296b2148"
+      handle="viewcode://./CodeSchema_Namespace?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.TraceSource.dll Namespace%3DMicrosoft.Extensions.Logging.TraceSource"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="08a66d9e-1dab-4c77-8a24-921076052040"
+        name="TraceSourceLogger"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="29521ddf-563e-4d2a-a53c-15f4303ea680"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.TraceSource.dll Namespace%3DMicrosoft.Extensions.Logging.TraceSource Type%3DTraceSourceLogger"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="26a3e8d8-1c43-42f4-b5c8-8bf338442e59"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="473c28a6-8cbe-4d8b-9115-5b9397fa8c07">
+                <propertyInstance
+                  Id="87f3b692-cd5c-43c3-93ae-31a09eff36e8"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e7273154-8ad9-4fcb-8f6d-89cf85a2ed1c">
+                <propertyInstance
+                  Id="e4f86d9e-7a3b-44da-832d-90bee77d984c"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="44fe2a4b-8896-4eae-bb84-3ec1bfd583fe">
+                <propertyInstance
+                  Id="39a8cf0d-88a9-4950-a57c-e97e2d4c3d8d"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1888c020-36df-4a32-a1c2-312d631c66c8">
+                <propertyInstance
+                  Id="7256ef71-2309-416d-9b98-57c9757f4fb4"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0c732cd7-fbea-441c-b70b-db8dbef8261f">
+                <propertyInstance
+                  Id="bf71b1cd-63c2-4274-86c4-4c0baa8148cf"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="09842d2f-d500-4991-8f7a-197532deb9fe">
+            <interfaceMoniker
+              Id="bd4cb367-a2d7-430c-a8f0-d990838068d0"
+              LastKnownName="ILogger"
+              LastKnownLocation="Package_0954.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="03c01364-43f1-4879-9fc3-716beac56241"
+            name="BeginScope‎&lt;TState‎&gt;"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="d7dad308-93c9-41a7-a98b-e9aa6df73f73"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.TraceSource.dll Namespace%3DMicrosoft.Extensions.Logging.TraceSource Type%3DTraceSourceLogger Member%3D(Name%3DBeginScope GenericParameterCount%3D1 OverloadingParameters%3D[(ParameterIdentifier%3D0)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a265d9ba-f980-4912-87ad-b62c91b5e711"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b1c59239-5507-4860-ba86-5c4ab02a14a0">
+                    <propertyInstance
+                      Id="bc5ad6b8-4d85-43f5-9725-128887c89204"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1669193f-240b-447f-8202-80fc7ec90d99">
+                    <propertyInstance
+                      Id="d7c6a575-877e-4bcd-927e-92b001ad2411"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b978151c-9b44-42ec-ac4f-90b6ef49c2a3">
+                    <propertyInstance
+                      Id="5143e065-7f2b-4831-8cc7-d7cfc74272e7"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e447fff1-7f4a-4976-a742-47d6af3fb833">
+                    <propertyInstance
+                      Id="5c68e6b6-a4f3-4fce-a024-d318604fd8c3"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="55172f59-7865-4ca7-89c9-fbae6435548c">
+                    <propertyInstance
+                      Id="8ac71462-c5de-4a7f-b352-0081db540df5"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="af1a7edd-3897-4634-a1f5-7aba3e86a3fb">
+                    <propertyInstance
+                      Id="9c2e4bca-8848-44d3-b508-795a20c6b307"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="8315cc56-b8d6-4a85-8462-a43c6ce4cbb0"
+                  direction="Return">
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="6787b09a-198f-4b1d-b30a-45ad38aa6277"
+                      LastKnownName="IDisposable"
+                      LastKnownLocation="Package3_1105.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="7f72cd26-5cef-426c-8396-050384380526"
+                  name="state"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="f3a37e09-0251-4047-b4cb-0e653b1b5284"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.TraceSource.dll Namespace%3DMicrosoft.Extensions.Logging.TraceSource Type%3DTraceSourceLogger Member%3D(Name%3DBeginScope GenericParameterCount%3D1 OverloadingParameters%3D[(ParameterIdentifier%3D0)]) ParameterIdentifier%3Dstate"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="d3c4507d-900d-40a6-8312-fb27088e458e"
+                      LastKnownName="TState"
+                      LastKnownLocation="Package_1314.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="4a623d13-4b13-474c-b450-47ab73268fb0"
+            name="IsEnabled"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="29842971-0a4f-401d-a415-fc5226d25c08"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.TraceSource.dll Namespace%3DMicrosoft.Extensions.Logging.TraceSource Type%3DTraceSourceLogger Member%3D(Name%3DIsEnabled OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Abstractions.dll Namespace%3DMicrosoft.Extensions.Logging Type%3DLogLevel)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="3cdd7fe8-aa08-4140-b334-7bfa68667dc2"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="81bc1325-3340-4b9b-8c9c-99de7242cc19">
+                    <propertyInstance
+                      Id="f3cc6f76-052b-49c3-9b8a-5bf92ee2ced1"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3e9c223d-1807-4f5d-bc38-30fd44006899">
+                    <propertyInstance
+                      Id="acaf88da-effb-4f10-b730-72d997dd409d"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="87778448-117e-4266-9e1e-5b39170549a9">
+                    <propertyInstance
+                      Id="501d1c12-6e62-46ff-ade9-6ae85542c0a6"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fc1ff60f-7740-4c55-9f70-9c224d911d46">
+                    <propertyInstance
+                      Id="a6e0d106-5279-4d0d-8241-c7065a8f3b78"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f68e4a91-73cd-40b5-a426-96d94d204c69">
+                    <propertyInstance
+                      Id="e0b9a0da-b860-43a3-8d0e-4bdd87f77d50"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cd5bd12f-3b38-4852-a03e-632315e02eaf">
+                    <propertyInstance
+                      Id="821d7b2c-b877-4eab-88c4-9a3a9afd727c"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="3d17afff-eb54-4cc3-beb4-ce8022c9af46"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+                      LastKnownName="Boolean"
+                      LastKnownLocation="Microsoft.Extensions.Logging.Modeling.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="974bbe8c-498a-4567-a1e2-eaf7cb5bb41b"
+                  name="logLevel"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="974e0c66-1e49-4feb-ad81-084979727133"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.TraceSource.dll Namespace%3DMicrosoft.Extensions.Logging.TraceSource Type%3DTraceSourceLogger Member%3D(Name%3DIsEnabled OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Abstractions.dll Namespace%3DMicrosoft.Extensions.Logging Type%3DLogLevel)]) ParameterIdentifier%3DlogLevel"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <enumerationMoniker
+                      Id="7ea84c25-72e9-474d-b93d-ccfee1b6cc64"
+                      LastKnownName="LogLevel"
+                      LastKnownLocation="Package2_1105.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="1b4afa97-8fb9-47f4-915e-6105c3cca573"
+            name="Log‎&lt;TState‎&gt;"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="b11beaf1-84ca-422f-95cd-9e8ada7c4c2c"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.TraceSource.dll Namespace%3DMicrosoft.Extensions.Logging.TraceSource Type%3DTraceSourceLogger Member%3D(Name%3DLog GenericParameterCount%3D1 OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Abstractions.dll Namespace%3DMicrosoft.Extensions.Logging Type%3DLogLevel)%2C(Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Abstractions.dll Namespace%3DMicrosoft.Extensions.Logging Type%3DEventId)%2C(ParameterIdentifier%3D0)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DException)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D3 GenericArguments%3D[(ParameterIdentifier%3D0)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DException)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="948cf3a5-937f-4f3e-8571-49f647bcbb7e"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bddc02eb-b75f-43b5-825a-f4623d36f683">
+                    <propertyInstance
+                      Id="678d1d71-7a6b-401b-8b4c-03fe7b33cd1f"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3e6f9b86-2bec-42d7-948e-148d4fd54d77">
+                    <propertyInstance
+                      Id="aeaf9b4d-c79a-4435-8b07-b972698b6727"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9f15860a-e5b4-4f66-bc96-8e61e0849aeb">
+                    <propertyInstance
+                      Id="c5bab988-50f3-49b1-ae8f-e8ef634b72a1"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c31feb8a-e97c-4d2b-b9e6-9224a179b1b3">
+                    <propertyInstance
+                      Id="bb389ca0-4a6c-4387-9090-a2a9b17902b1"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="26d1abc9-e936-43b0-81a8-d7459d37e755">
+                    <propertyInstance
+                      Id="781e890a-615b-4772-b92e-13332ea1520d"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9396a968-5b99-4bda-9f22-fcaba15cb943">
+                    <propertyInstance
+                      Id="73d84a7f-985a-45a5-8914-704c0c726484"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="bf4f5aab-494d-4583-a9c9-e9739c5ff56c"
+                  name="logLevel"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="f6ebaa84-40ce-4b0d-aa3d-dc11a2eb2b62"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.TraceSource.dll Namespace%3DMicrosoft.Extensions.Logging.TraceSource Type%3DTraceSourceLogger Member%3D(Name%3DLog GenericParameterCount%3D1 OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Abstractions.dll Namespace%3DMicrosoft.Extensions.Logging Type%3DLogLevel)%2C(Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Abstractions.dll Namespace%3DMicrosoft.Extensions.Logging Type%3DEventId)%2C(ParameterIdentifier%3D0)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DException)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D3 GenericArguments%3D[(ParameterIdentifier%3D0)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DException)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]))]) ParameterIdentifier%3DlogLevel"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <enumerationMoniker
+                      Id="7ea84c25-72e9-474d-b93d-ccfee1b6cc64"
+                      LastKnownName="LogLevel"
+                      LastKnownLocation="Package2_1105.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="38adb5f3-9197-4a3a-beef-cfadbb414294"
+                  name="eventId"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="0f1af10d-3914-46f3-8c20-7b4b6c721505"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.TraceSource.dll Namespace%3DMicrosoft.Extensions.Logging.TraceSource Type%3DTraceSourceLogger Member%3D(Name%3DLog GenericParameterCount%3D1 OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Abstractions.dll Namespace%3DMicrosoft.Extensions.Logging Type%3DLogLevel)%2C(Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Abstractions.dll Namespace%3DMicrosoft.Extensions.Logging Type%3DEventId)%2C(ParameterIdentifier%3D0)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DException)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D3 GenericArguments%3D[(ParameterIdentifier%3D0)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DException)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]))]) ParameterIdentifier%3DeventId"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="920c49a0-57ad-4e21-a079-d2d7e8a98e79"
+                      LastKnownName="EventId"
+                      LastKnownLocation="Package2_1105.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="c6587230-afc8-4b08-abfc-25e16bb3a794"
+                  name="state"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="7e51fc67-3198-4c82-ac8d-3f4ef54684bc"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.TraceSource.dll Namespace%3DMicrosoft.Extensions.Logging.TraceSource Type%3DTraceSourceLogger Member%3D(Name%3DLog GenericParameterCount%3D1 OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Abstractions.dll Namespace%3DMicrosoft.Extensions.Logging Type%3DLogLevel)%2C(Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Abstractions.dll Namespace%3DMicrosoft.Extensions.Logging Type%3DEventId)%2C(ParameterIdentifier%3D0)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DException)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D3 GenericArguments%3D[(ParameterIdentifier%3D0)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DException)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]))]) ParameterIdentifier%3Dstate"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="d3c4507d-900d-40a6-8312-fb27088e458e"
+                      LastKnownName="TState"
+                      LastKnownLocation="Package_1314.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="62f13791-af44-4ce9-a452-a5b97429eedd"
+                  name="exception"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="ded801b5-b783-4370-83fe-994f4bc3d4b9"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.TraceSource.dll Namespace%3DMicrosoft.Extensions.Logging.TraceSource Type%3DTraceSourceLogger Member%3D(Name%3DLog GenericParameterCount%3D1 OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Abstractions.dll Namespace%3DMicrosoft.Extensions.Logging Type%3DLogLevel)%2C(Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Abstractions.dll Namespace%3DMicrosoft.Extensions.Logging Type%3DEventId)%2C(ParameterIdentifier%3D0)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DException)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D3 GenericArguments%3D[(ParameterIdentifier%3D0)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DException)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]))]) ParameterIdentifier%3Dexception"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="44755165-d406-4be7-a66e-e43fe585b940"
+                      LastKnownName="Exception"
+                      LastKnownLocation="Package3_1105.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="017d500e-8f78-41cc-9698-938f58fc2f7c"
+                  name="formatter"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="0ae1e0fe-53b5-4da3-9c12-dbd684099e75"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.TraceSource.dll Namespace%3DMicrosoft.Extensions.Logging.TraceSource Type%3DTraceSourceLogger Member%3D(Name%3DLog GenericParameterCount%3D1 OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Abstractions.dll Namespace%3DMicrosoft.Extensions.Logging Type%3DLogLevel)%2C(Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.Abstractions.dll Namespace%3DMicrosoft.Extensions.Logging Type%3DEventId)%2C(ParameterIdentifier%3D0)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DException)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D3 GenericArguments%3D[(ParameterIdentifier%3D0)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DException)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]))]) ParameterIdentifier%3Dformatter"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="ee30ad1a-04d5-4f97-8337-56580bd6b722"
+                      LastKnownName="Func&lt;TState‎, Exception‎, String‎&gt;"
+                      LastKnownLocation="Package3_1105.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="4879f7cb-459f-4209-986a-689f62d71e97"
+            name="TraceSourceLogger"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="6a22dd8a-a445-4f98-8f5a-d56bcd7177ea"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.TraceSource.dll Namespace%3DMicrosoft.Extensions.Logging.TraceSource Type%3DTraceSourceLogger Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2FSystem.dll&quot; Namespace%3DSystem.Diagnostics Type%3DTraceSource)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a8201f57-9ab2-4363-8aaa-dac97524a128"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="448fbf6a-7475-45d5-8166-ae348c3e6aa0">
+                    <propertyInstance
+                      Id="d79f788d-1bfe-45c0-8d1a-d58fbe05fda9"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2b34bd85-c773-4e22-8ddd-54ad6943c806">
+                    <propertyInstance
+                      Id="3d10d233-8306-41e1-a64c-1957381dbb73"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5b71a60d-422b-4121-abaa-a4e1ecd1db14">
+                    <propertyInstance
+                      Id="a45779bf-ba3c-410c-b895-d959f89740c7"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7eeb600d-d42d-4289-8752-8753ee14567a">
+                    <propertyInstance
+                      Id="97792580-2210-432f-a32e-6d9d52454eba"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0ce167c8-7f3b-4459-bbb1-c596a4225bf0">
+                    <propertyInstance
+                      Id="e45021d5-c49a-4602-9577-8b4890a58e42"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="87a0a6be-fad4-4602-985a-0ec5f915c7a0">
+                    <propertyInstance
+                      Id="1079fbe6-26d6-4c87-a1be-71a391ff1728"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="03cde4ef-3a88-4e0b-ad19-010512531752"
+                  name="traceSource"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="3a9110dc-20bf-4bb6-8c7c-9498b5df5129"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.TraceSource.dll Namespace%3DMicrosoft.Extensions.Logging.TraceSource Type%3DTraceSourceLogger Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2FSystem.dll&quot; Namespace%3DSystem.Diagnostics Type%3DTraceSource)]) ParameterIdentifier%3DtraceSource"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="fd8ac53f-4598-4981-878c-d661f9afab84"
+                      LastKnownName="TraceSource"
+                      LastKnownLocation="Package12_1105.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="26f0cce2-e575-4133-a6f5-df3243d57a58"
+        name="TraceSourceLoggerProvider"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="de1151a8-72af-46ab-9dab-089a5de39f29"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.TraceSource.dll Namespace%3DMicrosoft.Extensions.Logging.TraceSource Type%3DTraceSourceLoggerProvider"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="2252a088-326a-4673-b598-54a32252d501"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f8c903f5-4c7c-4ff9-88f9-b5efa8d755fe">
+                <propertyInstance
+                  Id="2eac98ac-cdc8-4276-ad4b-78dfa943f48f"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9d3af489-3d33-4bdf-9661-314b8e8cfee9">
+                <propertyInstance
+                  Id="eb2ad9ec-ae31-4d27-a1c7-96b4fff0908c"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="550a3085-22c9-4c0a-af7b-623ee28d781a">
+                <propertyInstance
+                  Id="7615caea-194b-41ae-b197-e0829d925d63"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3b3fccab-610c-43a4-a79b-08dcf2c67e1d">
+                <propertyInstance
+                  Id="b5935ae5-9b75-4a19-88b5-c4b9f2888a12"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4517526d-f2ae-405a-b841-5db53c2805e0">
+                <propertyInstance
+                  Id="813a9be8-679b-4f32-be52-f1869cce992d"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="c9bf91c6-9cdc-4cdb-b13e-f2a2abfe05fc">
+            <interfaceMoniker
+              Id="7e437337-251f-4714-8e16-7e5c28169423"
+              LastKnownName="ILoggerProvider"
+              LastKnownLocation="Package_0954.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="33fb1dd8-3cca-42c0-8680-c3ac5dd71486"
+            name="CreateLogger"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="92358dcc-cb95-42ee-b15a-0c1736e67eab"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.TraceSource.dll Namespace%3DMicrosoft.Extensions.Logging.TraceSource Type%3DTraceSourceLoggerProvider Member%3D(Name%3DCreateLogger OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="36a76152-0e2d-43f4-bb84-eee2aa2ac3e5"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f37c8734-45b3-41ce-98bd-d11b8fc767cf">
+                    <propertyInstance
+                      Id="b22a2f1e-dda6-44f3-9471-70376ac84ddf"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a54096b3-5c7c-4143-8a93-3d71eb733f00">
+                    <propertyInstance
+                      Id="3fdaeb3a-887b-427e-927a-80ec6c521b10"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6a5c2acb-5ea4-47d4-a587-398fde22ceb3">
+                    <propertyInstance
+                      Id="1ab238a5-7eae-46d3-b97f-4d209e87305e"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8afc75d5-767d-4f4f-834f-c33bf601994c">
+                    <propertyInstance
+                      Id="1d37b3c9-d7f7-47a0-912f-3f9b7cf8325c"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b3e45772-8185-4496-8a22-65c9196c6b82">
+                    <propertyInstance
+                      Id="0233350e-8786-42f4-8bbb-f99549945e6b"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e1593369-a525-48f3-affd-6c66113bdc6d">
+                    <propertyInstance
+                      Id="4e9b2c79-451e-4298-9223-04a36c0f9c53"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="c78437b9-3da7-401e-85f5-608f955e7c64"
+                  direction="Return">
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="fd8558ec-dac0-4531-a60a-510b53e470ad"
+                      LastKnownName="ILogger"
+                      LastKnownLocation="Package2_1105.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="14917ee7-2742-4c29-941d-40ca2259ef19"
+                  name="name"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="3f5b7e11-4a43-481a-8947-65b307f2915d"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.TraceSource.dll Namespace%3DMicrosoft.Extensions.Logging.TraceSource Type%3DTraceSourceLoggerProvider Member%3D(Name%3DCreateLogger OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dname"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="Microsoft.Extensions.Logging.Modeling.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="77818230-4617-4b4b-96b9-ce642084e012"
+            name="Dispose"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="5fb7ba9d-cf2d-4f00-83fb-60d406e9eba7"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.TraceSource.dll Namespace%3DMicrosoft.Extensions.Logging.TraceSource Type%3DTraceSourceLoggerProvider Member%3DDispose"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="3dd7744d-bc43-4747-890a-575fd8906a37"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="adaa1bde-f7a5-4add-b00f-9f180ee02c4c">
+                    <propertyInstance
+                      Id="8ef6bb8e-a03b-464c-9d7a-b8dde716f52e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b32fa503-f2d8-4d1e-8a4a-9da1726bbfae">
+                    <propertyInstance
+                      Id="3f25ee9c-fc49-4a0f-8d51-98e6d58920cf"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0fb7cfeb-8102-4d7c-b7bf-829eb9321fd3">
+                    <propertyInstance
+                      Id="9069f048-2db0-4868-bfe2-9711b2eb6ecb"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3f3fc7fa-25ad-46e2-b98e-3c442e8d61e4">
+                    <propertyInstance
+                      Id="c7a99e89-f227-4e25-97f6-49efcf27c380"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1fba9b87-67fd-4d35-abd4-f018556de6d0">
+                    <propertyInstance
+                      Id="ec8ed7e9-1e54-445b-b10d-98578f39bb62"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0f9564c6-5dee-47dc-b90d-78d0efd57004">
+                    <propertyInstance
+                      Id="a3ca7a38-a61d-4111-bd72-4b16384e7cb9"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="27ef42f8-8b4e-4e9a-8bc3-f494d20e4dba"
+            name="TraceSourceLoggerProvider"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="46719cbe-7b44-42d0-a531-f8e02c9da438"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.TraceSource.dll Namespace%3DMicrosoft.Extensions.Logging.TraceSource Type%3DTraceSourceLoggerProvider Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2FSystem.dll&quot; Namespace%3DSystem.Diagnostics Type%3DSourceSwitch)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2FSystem.dll&quot; Namespace%3DSystem.Diagnostics Type%3DTraceListener)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a0424cbf-b0d9-40c9-9c4b-90e048f4214e"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9e22d7f3-c764-431f-8d98-14bcc80e4ce8">
+                    <propertyInstance
+                      Id="c9e788bf-1076-454e-aa25-633fbcd1d20f"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5e52e1f3-26c9-4f7c-ac4d-52432fbcdc65">
+                    <propertyInstance
+                      Id="60be8930-5a3d-4271-a272-613bd52fa014"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6dc18cec-2efe-4a87-9cb7-5f70e0089664">
+                    <propertyInstance
+                      Id="2df325a2-1945-41d4-b1d1-187652f4f3ef"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4de99374-ef39-4395-9637-b5514216ee7d">
+                    <propertyInstance
+                      Id="7254356a-d8cc-4bc7-a614-c700492dd7c3"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3ebdaae0-b73a-4bcb-b372-4f1325e9f568">
+                    <propertyInstance
+                      Id="b2aeeef7-c3c9-4e87-81ed-6b80a700ae24"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="02b74eae-1b44-4d56-9f8c-d1214d44baa0">
+                    <propertyInstance
+                      Id="80dbc9c1-d51a-4f4f-af13-f49cb95724ab"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="e60ae6fd-0725-4c84-a5d8-598d7518e59a"
+                  name="rootSourceSwitch"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="9351e2c4-d191-43e4-a4c4-b9a1781e3bee"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.TraceSource.dll Namespace%3DMicrosoft.Extensions.Logging.TraceSource Type%3DTraceSourceLoggerProvider Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2FSystem.dll&quot; Namespace%3DSystem.Diagnostics Type%3DSourceSwitch)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2FSystem.dll&quot; Namespace%3DSystem.Diagnostics Type%3DTraceListener)]) ParameterIdentifier%3DrootSourceSwitch"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="548b67c5-a3ea-43bc-aeb4-4ac0dec3be11"
+                      LastKnownName="SourceSwitch"
+                      LastKnownLocation="Package12_1105.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="4bf0424a-dfa0-445a-ab39-d6c2542a5d4c"
+                  name="rootTraceListener"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="65953a0d-1837-4a45-832c-4cb6e8e400d5"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.TraceSource.dll Namespace%3DMicrosoft.Extensions.Logging.TraceSource Type%3DTraceSourceLoggerProvider Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2FSystem.dll&quot; Namespace%3DSystem.Diagnostics Type%3DSourceSwitch)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2FSystem.dll&quot; Namespace%3DSystem.Diagnostics Type%3DTraceListener)]) ParameterIdentifier%3DrootTraceListener"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="e1c69e3e-f720-450c-afca-e8d4931f93da"
+                      LastKnownName="TraceListener"
+                      LastKnownLocation="Package12_1105.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="85450652-c77a-4a6b-a022-151411feab99"
+            name="TraceSourceLoggerProvider"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="fd8cff26-2c48-4af7-8d13-9ca27cb26a0e"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.TraceSource.dll Namespace%3DMicrosoft.Extensions.Logging.TraceSource Type%3DTraceSourceLoggerProvider Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2FSystem.dll&quot; Namespace%3DSystem.Diagnostics Type%3DSourceSwitch)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="2dded192-bd36-408e-9cd7-709ac9d64da5"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="61dcbe02-24fa-483b-9640-484090531799">
+                    <propertyInstance
+                      Id="ac94f321-8e66-48f6-b76d-ed4d48851086"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cab9038d-ae97-4e7a-b834-317474ce504a">
+                    <propertyInstance
+                      Id="d05a6a5a-4d34-423d-bab6-326803ae1068"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6508928a-cdb7-4278-8c0e-e810248f1c86">
+                    <propertyInstance
+                      Id="4e79735c-a742-4093-9e21-80bd832fde27"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="00b30ea2-ad4c-4653-ba7a-881f3f21f57e">
+                    <propertyInstance
+                      Id="f07c7134-0d0d-4c71-85f8-ada5d8c9073f"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="34a260d6-ffd4-4319-80e0-fac7fc1bbbb7">
+                    <propertyInstance
+                      Id="9d78c5e3-e915-4ae3-a733-a49f5906dd04"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="51d05504-1899-4e36-b87f-c54879c79ab9">
+                    <propertyInstance
+                      Id="792ebfbf-8179-4d04-84f3-0b70c3417413"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="460ba97b-aedf-416f-97ae-f7910eeb1447"
+                  name="rootSourceSwitch"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="8fb4a0f9-e4e3-4452-bbad-91afa1cdcdff"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.TraceSource.dll Namespace%3DMicrosoft.Extensions.Logging.TraceSource Type%3DTraceSourceLoggerProvider Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2FSystem.dll&quot; Namespace%3DSystem.Diagnostics Type%3DSourceSwitch)]) ParameterIdentifier%3DrootSourceSwitch"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="548b67c5-a3ea-43bc-aeb4-4ac0dec3be11"
+                      LastKnownName="SourceSwitch"
+                      LastKnownLocation="Package12_1105.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="cdd116be-4209-4725-bc49-ce918dfa2eae"
+        name="TraceSourceScope"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="c42d2f0b-6b93-4fd0-b420-2cac45407372"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.TraceSource.dll Namespace%3DMicrosoft.Extensions.Logging.TraceSource Type%3DTraceSourceScope"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="676d4ea8-6bc7-4d14-9e68-b50949a9d04f"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4e7e7925-fc8a-4800-b5bb-73cc6060613b">
+                <propertyInstance
+                  Id="09c9a383-1bf1-45e7-b546-a20f7dca9bc6"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a3a2625f-7407-430f-9e69-a91680d58b3d">
+                <propertyInstance
+                  Id="518fabe0-f4eb-4c31-b2d3-5296bee03248"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a2b5742e-ba6e-40cf-adda-c786c7bd9595">
+                <propertyInstance
+                  Id="58171ec7-c475-4987-8f71-4b86ca8fde33"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a61565c3-fb49-4789-bdaa-962a97825826">
+                <propertyInstance
+                  Id="3eca0934-2398-48e5-afa6-c1579d0f4142"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="858770ff-6a1d-49b5-abcf-1812b265080f">
+                <propertyInstance
+                  Id="1d864345-e8d5-4295-878c-a02cb6c8bb09"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="635f3451-818a-43ce-ad7e-ec6c4ea3e7e2"
+            name="Dispose"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="266c5552-042a-48f0-b4ee-0443503653b8"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.TraceSource.dll Namespace%3DMicrosoft.Extensions.Logging.TraceSource Type%3DTraceSourceScope Member%3DDispose"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="69c12bad-06e8-453c-9438-9a84af7ad360"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4e1b40b4-dccd-405d-b592-5489c1e4f51c">
+                    <propertyInstance
+                      Id="35557ab0-dc15-4c8e-a9e1-c12ffe7811bd"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a3b3dedf-88ac-4387-a865-cc0e2da9adef">
+                    <propertyInstance
+                      Id="31973d08-f308-41af-a865-b254699f48ea"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="226177c3-ff31-4822-b18d-79d87b9d1c75">
+                    <propertyInstance
+                      Id="712ce070-664d-4049-986d-173de79085dc"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="718e71f9-fffb-4f2c-9616-878b77f7a9bf">
+                    <propertyInstance
+                      Id="7a5502a8-0375-4858-8feb-cc69d1163abd"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="390a94d0-661d-4635-a716-5cd25507e0fb">
+                    <propertyInstance
+                      Id="d3026641-4126-418c-a27c-79584b9309c6"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="91462c3d-31e0-4c37-9f2a-90f2774dde8f">
+                    <propertyInstance
+                      Id="b4dbc4dd-a40d-4249-91b9-69e96890f86f"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="06f33d91-000d-478c-bcfd-1fced00da9eb"
+            name="TraceSourceScope"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="c4b1fa11-3a71-4941-bbd3-dee4d0f1b045"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.TraceSource.dll Namespace%3DMicrosoft.Extensions.Logging.TraceSource Type%3DTraceSourceScope Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="da3fb070-451e-47f6-bb7a-562aa29feac7"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0165e04e-528d-41bb-ba0f-ea454640f4f5">
+                    <propertyInstance
+                      Id="f7f9de24-c820-48d4-89bb-f796de8c095f"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8f99e164-12ff-45f5-8800-db1c8bc6eb5e">
+                    <propertyInstance
+                      Id="b565bf01-717f-430e-859f-1e4f37c06935"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="823c373f-6aee-4d9b-bca1-268331f3c520">
+                    <propertyInstance
+                      Id="54ca0711-3af9-4481-a167-7de83974815d"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="724d7a12-47d1-4570-8ce7-3da1b0bd48c4">
+                    <propertyInstance
+                      Id="174b5b0f-b463-4d5c-a507-65912a0a5bff"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="97000d63-008c-49d6-9214-cc4e80b590ee">
+                    <propertyInstance
+                      Id="aac8afff-ec83-4513-b295-c428980188ab"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6b745d5d-8b45-44c5-a419-0859c286b2df">
+                    <propertyInstance
+                      Id="1500ebcc-8795-4f96-a997-49c394a73ec8"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="db456e60-47e1-4c38-954e-a7cb91089aa3"
+                  name="state"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="e70a4c4b-1720-4671-848d-05ab1fbd371e"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2FTemp%2Flogging%2FMicrosoft.Extensions.Logging.TraceSource.dll Namespace%3DMicrosoft.Extensions.Logging.TraceSource Type%3DTraceSourceScope Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.6.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)]) ParameterIdentifier%3Dstate"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="3342ba92-59b9-43c6-9582-f04efeb44e2e"
+                      LastKnownName="Object"
+                      LastKnownLocation="Package3_1105.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>
